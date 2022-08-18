@@ -1,1147 +1,1043 @@
-import '../helpers/images.dart';
 import '../model/spare_part_model.dart';
 
 class Line2Utils {
 
   // ignore: missing_return
   static List<SparePart> getMockedLine2(int index){
-    int i = 1;
     switch(index) {
       case 0: return [
         //Paletizadora
         SparePart(
-          stock: "1418813",
+          sap: "1418813",
           numPart: "05271754",
           description: "Fijacion rebatible N/P 05271754",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 09-23",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mGv3CdJhrEZPtNOowelUQXWGR1EerEX_94VDzZ6Gsd9oGAsWYE7prj6DthzYiFIrawGR0w-MaS7jdQB6SxlacaKRlKSHRe097ll8wEBT8uFboj1R_Bh4JpBI5TOK6e3PSd8KYPbwDyWN8vZgW2byFI31qNlkRELl2V815m7-j-DWqzgGmx6I3NyeknW0Pyp3w?width=214&height=216&cropmode=none",
         ),
         SparePart(
-          stock: "1418832",
+          sap: "1418832",
           numPart: "301064018440",
           description: "Cabeza de horquilla N/P 301064018440",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 09-19",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mXD9dY6h6xJfQ6qyvoxF-G7WFoNeSfwYIhq-BgEhcEIkPI1rloLDzPrM-flq-Xub8La9-E1GwfYTTUyClX6SbUm3-EsyBIskcSlp6wdaAs5cc7hKkz8_edw4iNwpJyj1SPjzchS8SdJOtsiFHSZYeZS_KCQR22CF2BiShG1LYKz-rMkZbCxDJFDJDMgH18rEV?width=209&height=208&cropmode=none",
+
         ),
         SparePart(
-          stock: "1418818",
+          sap: "1418818",
           numPart: "N301115785320",
           description: "Cadena de transmision 12B N301115785320",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 13-46",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mSy4f7KyMwVEicq0yVwuZjiQbv_QYbDUnCtiBWh_v2PeGUfDlcwz9SURtDAVh8wZUWAp2i2_pNFt_Gu3yqxye-eK8CmBFS0PdOcZjN5oqx45inGoKRgFHtqWTz5NGz-EzFC1SzExUYoo6l4wy3AJJEQGTDlKFsUq43pCul97upF2VcAmmbbyrfLw9OTNRcTyI?width=203&height=216&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419726",
+          sap: "1419726",
           numPart: "301268812500",
           description: "Reflector 301268812500 KHS",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Refacc. Linea EST 09-26",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4meGAjdFOOIX34IUGZcftORzTmDQZPlsGbjCwt0zIgxYy1N7k5GhVvWcEcs0bOlBUMyGYDqNNJHsU6J6eQ_gVAAN6A_1eW3BP60MGB2sxXe8NFZq_IiX4kkbI901Z88Fb4VW_Z9eWy1xRyGU-3-mWLE4tTBBEDWFm8pIKAe5u-V597ESJDcyftx2FLKY_Mz3r6?width=198&height=192&cropmode=none",
+
         ), 
         SparePart(
-          stock: "1419614",
+          sap: "1419614",
           numPart: "QSY-8",
           description: "Conector union tipo YEE N/P QSY-8",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 03-10",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mQSs7FvawEONXq16PslUfcDALZ4C4RZ8uGJ1DGx_n2H9mYJIxJ5Ot-yT-GojWqCUq9Oc1r_YDebdrefqKvB0Cxrxp4K39KICJXLqLHxvWPXwt0zj7bqC_6HclbkpOOcy1JTm8u-qwPAmRDsSOkqsU4x9-PPMLbkFXydniU5AGP4FoDFIX3AYMP-p4xWyueFq0?width=228&height=197&cropmode=none",
+
         ),
         SparePart(
-          stock: "1417843",
+          sap: "1417843",
           numPart: "85306213",
           description: "Perno. N/P 85306213",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 09-27",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mlU4sKXBOYD9xJVgmnFwhFCe5FGJ5VZMbb50T9X6gflIZZtEWVYtc9IUCvybQJViE72uOTyq-3HXBLNBrWdEN-gMGtL9CoQu-RxP_WOxx6Cqi0tWFhgMdfJB8XMLlSuiKKLSTvB37FenrzafDht7OLZIJpGyeuplRWax3fmglOFq7rog7WUlHKLtSvVHI2JXC?width=232&height=188&cropmode=none",
+
         ),
-         SparePart(
-          stock: "1424855",
+        SparePart(
+          sap: "1424855",
           numPart: "40-1",
           description: "Cadena tipo americana paso 40-1",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 14-37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mHiAOFHmWQnQOAa24_FIpj2vuHQX5kuTt3FXm0fyp4AVOTh8qDGNAAS0v5lIwHAB9eeuJorMdhwFUr_4q6LL_t1rlaMbuc5dqMzp-IyF0ZXIx8bsK--L9PJ5KWFbY96zycRf4dBkuygXgxmffbIr5vVnwZl-qKx_noKYicXvdddk5tDc5WP-T-jjoTSwnj7MI?width=220&height=214&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419132",
+          sap: "1419132",
           numPart: "LS92/4E-S1",
           description: "Sensor fotoelec recpt infro LS92/4E-S1",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 14/37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mWJdnlHaQoh7IsOnduumWSq3rbZZk3dqOlvcuenwFlD4z4dkFYdu3Rjz3za9Whe0T6CLZQFXfkVy355phEBK_KFywVnSH2xKh13CgydLWGlZfxY0v4_mCgl8I8K_fw4DwiQ3j-LM-y3kCB2iT_oWaZVyeHJ6njvHNDxkqMfQwAe7Ii9DRv9Zan1smxjowVdV8?width=189&height=247&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419437",
+          sap: "1419437",
           numPart: "RKC 4/7 6007302(1204-G)",
           description: "Conector recto tipo hembra 4A-250V",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 14-37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mBrlTkw97SiP-7ORhsSDVErvRkMJ7f2MVQU2rIhC5750-XxUqPW-ZV3u6yG73ACtfj7JEpDf5RfhIDQ0643oyqYPEwr7mLn-GUD_uWcaPk8zv72TB0v-Z-hn4trPq14kgGiWjSOZza7sCOwLthNW8CMs5LJl-CVT8zpoJUKCpWwJ3HJdwEtTotk-JFCGwQrpy?width=189&height=249&cropmode=none",
+
         ),
         SparePart(
-          stock: "1418905",
+          sap: "1418905",
           numPart: "1204-W",
           description: "Conector codo hembra atornillada 1204-W",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 14-37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4m9Qo2DhX4SDjfAZfOhG7cyKDUwmiyVONuMeY55Sn1I011mCO_Hg8gj5r5-K7ANb03iMCPkHRvhQIYLcA0Kous7Eh3g2PBiomLbthzjqz33Zbtk6gsNVZOxOLrx5lUFkOsmDg1tjM77GNkKnDesvjAutR1AWwjS5ndYDUQMGvTgsy4QZ2k7CKHQN-sKOVw3ytt?width=252&height=188&cropmode=none",
+
         ),
         SparePart(
-          stock: "1422886",
+          sap: "1422886",
           numPart: "E11624",
           description: "Conector macho a cablear M12X4 PINES",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 15-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mkfjv7P6Z-O1s8g6av1WHuw-eBf5pqV8TJbVRIMe2lBto0XoDJZd_qda1chA2J4MA7HoRzneV1xJG35R2OiXrgbhZWds3RUfAfD2DohgjF-UkkjpctEcFSYZZpd-Rsydh-q5pCLdX7f-2THr4HY2FVoKLjLOvYIy9cMwy6zrjScbE6J-biZ5s5XrSK8AhF9TA?width=254&height=197&cropmode=none",
+
         ),
          SparePart(
-          stock: "1418670",
+          sap: "1418670",
           numPart: "12MM",
           description: "Manguera de poliuretano 12MM Mat. PLast",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-09",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4ma6XjYaNaKJ3u6t8ur7R3dfDdveXDIy-gz5G0JPkRlKpAx84UFa0wFv-tQXAbTJNALOF8PmXllJQyBuAD07zRjxK5kRlpP-BmngWsgpAwuiwWjWCLK1CsZiEJKYr49P8EZeInwNRvbl0CMIXk9RHllQ6h47AyfbeZRWogaaniNiUWF1C7G-0ERLsQVluMsYww?width=194&height=191&cropmode=none",
+
         ),
         SparePart(
-          stock: "1425550",
+          sap: "1425550",
           numPart: "10MM",
           description: "Manguera plastica 10MM. Mat. Poliuretano",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-14",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4myBLIwtvbOjuMI02hO1-Ox3H-PFBIuFxS-xpN0FuneEDrHbTH5mHwbYXYTkEw4cjGDk1YCIjn7pQV92ixca0nO59-_ooKxyuEe9Ikq_e5kAbqY8aSG0a1GGCMrDH3Hf8NRD3B1zXAMwCg_mXgbxsb1G6wsRmVdJEQ4E9o-dnPKzOP1XzGbG3OxthQ172fEUFE?width=158&height=198&cropmode=none",
+
         ),
         SparePart(
-          stock: "1425438",
+          sap: "1425438",
           numPart: "8MM",
           description: "Manguera poliuretano 8MM. Color azul",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-12",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mlujNyX7GqpyIx6utdhacyYcY-G-O4q_4Adu8etnH9o6_LP6pqVGzFLUriFtafD3h9ltQJZdK8HPpB8eWmkxeMkqLyNWAG-exNnQfE-ML6qhdppPZhIma4Dmdxwcom7pcOdhT7lUlVCEInDrTmILv9ZxSjxLl4U_UhuRt3D_azK4EQuubexGHlWxJaWxCfXYE?width=194&height=193&cropmode=none",
+
         ),
         SparePart(
-          stock: "1260352",
+          sap: "1260352",
           numPart: "MFH-5-1/4",
           description: "Valv SOLEN MFH-5-1/4 -FESTO 1/4 IN",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-38",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mhcMzwdcU-eabF_q7G8lQKzRThq-kjXOPZh1pOiCQvMNQN5kgO8yszj-qFaTASXxxOkcUXbSj5JkZIntqKJ3FwZbLBh79AXWSwf1RK4tT5KsWw_SVO2tR8Fq0LLIKtKsRsXaVB7CPyAf0aC3VMPTtJOr5PuzQk0dDGz0TC-By3dioYGpzZSgdrLV1LqzX3UKj?width=189&height=195&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419282",
+          sap: "1419282",
           numPart: "JMFH-5-1/4",
           description: "Valv SOLEN asiento valv 7 MM JMFH-5-1/4",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-38",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mlmAqic41ECGvZRIqlhIA_gvEZd4UPo0Iu-1N0tx5Si7L7VA1JOn0CyfkAzYHSj_t5nHuyA8OQBvJaSOpgwqXfjThV30BX0yqczIjuVhi1wGiNxBwNDjpg8z3DYd8vp25EHyk8GPHd-0c0ySK4qGjC1uqw_sNAf85_smb5xWrmM4kyGTe8F0nD-3hKXm0tZoh?width=252&height=173&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419327",
+          sap: "1419327",
           numPart: "MSFG-24/42-50/60",
           description: "Bobina para electrovalv. MSFG-24/42-50/60",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-38",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mV-dTlfNQXXIY6poZS-9ZKHCFxhkKdcPoHNeqFUlEeQ6yjMcQltTLf1iAh_hwxilPnnO3SqeLk1uQBt4TI2uZrcvGwsgjkRoEAYfHGIFzAs9ukdPxFItQh_AuTO42iKwtqOj0OgujqSZUpHMnMnMurN7WZMETYIVauZIgQ_HniItOLPWb5wZERd7HEYVKK_Qp?width=206&height=207&cropmode=none",
         ),
         SparePart(
-          stock: "1178062",
+          sap: "1178062",
           numPart: "5725550220",
           description: "Valvula electromagnetica",
-          machineSerie: "LORD 1 BGN/1 301370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-40",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mojog0BAWO0jielwjbOR3UqipsbHc-AkhhaLqytikGw6JwudPfoHhMyyhkIi6cA8mTaCaTNOD3auMGDfolR7MHoKD9_7K_Ei0p3d4DsEwQjR5z-onZ_faq7vADZlupx1fL10XxQyuXVH0n__ofAvYOK7_pxK4kdwn0R5dZlxedz4hq3WMGXduJRFOernBeI_R?width=191&height=251&cropmode=none",
         ),
         SparePart(
-          stock: "1421792",
+          sap: "1421792",
           numPart: "S301268751263",
           description: "MOD. INTERFAZ P/SALIDA S301268751263",
           machineSerie: "LORD 1 BGN/1 301370/200",
           slotLocation: "3000 Reffac. Linea EST 15-03",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mr6r9ANgfFry8hCykeK6Y4kJ_8F3c_t9oiMrmLP0hPxZu8yeCSU1uG4zxx4EQHBwRbe_UvGVsx2b7a_p2NeqDIUl0BijvE5Pyz7d46VshWkezJqMXwzG0ubFw3-4maA5JblLjuRNkTzBsSIv3yYWq10j8pBrvt3KmES_oPAE9x5obQUoURtGsKVqQa_BwTEhy?width=139&height=175&cropmode=none"
         ),
        SparePart(
-          stock: "1422059",
+          sap: "1422059",
           numPart: "3RK1400-0GQ20-0AA3",
           description: "MODULO ASI-I-2E/2A 3RK1400-GQ20-0AA3",
           machineSerie: "LORD 1 BGN/1 301370/200",
           slotLocation: "3000 Reffac. Linea EST 15-03",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mr6r9ANgfFry8hCykeK6Y4kJ_8F3c_t9oiMrmLP0hPxZu8yeCSU1uG4zxx4EQHBwRbe_UvGVsx2b7a_p2NeqDIUl0BijvE5Pyz7d46VshWkezJqMXwzG0ubFw3-4maA5JblLjuRNkTzBsSIv3yYWq10j8pBrvt3KmES_oPAE9x5obQUoURtGsKVqQa_BwTEhy?width=139&height=175&cropmode=none"
         ),
       ]; break;
       case 1: return [
         //Depaletizadora
         SparePart(
-          stock: "1418813",
+          sap: "1418813",
           numPart: "05271754",
           description: "Fijacion rebatible N/P 05271754",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 09-23",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mGv3CdJhrEZPtNOowelUQXWGR1EerEX_94VDzZ6Gsd9oGAsWYE7prj6DthzYiFIrawGR0w-MaS7jdQB6SxlacaKRlKSHRe097ll8wEBT8uFboj1R_Bh4JpBI5TOK6e3PSd8KYPbwDyWN8vZgW2byFI31qNlkRELl2V815m7-j-DWqzgGmx6I3NyeknW0Pyp3w?width=214&height=216&cropmode=none",
         ),
         SparePart(
-          stock: "1418832",
+          sap: "1418832",
           numPart: "301064018440",
           description: "Cabeza de horquilla N/P 301064018440",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 09-19",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mXD9dY6h6xJfQ6qyvoxF-G7WFoNeSfwYIhq-BgEhcEIkPI1rloLDzPrM-flq-Xub8La9-E1GwfYTTUyClX6SbUm3-EsyBIskcSlp6wdaAs5cc7hKkz8_edw4iNwpJyj1SPjzchS8SdJOtsiFHSZYeZS_KCQR22CF2BiShG1LYKz-rMkZbCxDJFDJDMgH18rEV?width=209&height=208&cropmode=none",
+
         ),
         SparePart(
-          stock: "1418818",
+          sap: "1418818",
           numPart: "N301115785320",
           description: "Cadena de transmision 12B N301115785320",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 13-46",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mSy4f7KyMwVEicq0yVwuZjiQbv_QYbDUnCtiBWh_v2PeGUfDlcwz9SURtDAVh8wZUWAp2i2_pNFt_Gu3yqxye-eK8CmBFS0PdOcZjN5oqx45inGoKRgFHtqWTz5NGz-EzFC1SzExUYoo6l4wy3AJJEQGTDlKFsUq43pCul97upF2VcAmmbbyrfLw9OTNRcTyI?width=203&height=216&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419726",
+          sap: "1419726",
           numPart: "301268812500",
           description: "Reflector 301268812500 KHS",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Refacc. Linea EST 09-26",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4meGAjdFOOIX34IUGZcftORzTmDQZPlsGbjCwt0zIgxYy1N7k5GhVvWcEcs0bOlBUMyGYDqNNJHsU6J6eQ_gVAAN6A_1eW3BP60MGB2sxXe8NFZq_IiX4kkbI901Z88Fb4VW_Z9eWy1xRyGU-3-mWLE4tTBBEDWFm8pIKAe5u-V597ESJDcyftx2FLKY_Mz3r6?width=198&height=192&cropmode=none",
+
         ), 
         SparePart(
-          stock: "1419614",
+          sap: "1419614",
           numPart: "QSY-8",
           description: "Conector union tipo YEE N/P QSY-8",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 03-10",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mQSs7FvawEONXq16PslUfcDALZ4C4RZ8uGJ1DGx_n2H9mYJIxJ5Ot-yT-GojWqCUq9Oc1r_YDebdrefqKvB0Cxrxp4K39KICJXLqLHxvWPXwt0zj7bqC_6HclbkpOOcy1JTm8u-qwPAmRDsSOkqsU4x9-PPMLbkFXydniU5AGP4FoDFIX3AYMP-p4xWyueFq0?width=228&height=197&cropmode=none",
+
         ),
         SparePart(
-          stock: "1417843",
+          sap: "1417843",
           numPart: "85306213",
           description: "Perno. N/P 85306213",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 09-27",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mlU4sKXBOYD9xJVgmnFwhFCe5FGJ5VZMbb50T9X6gflIZZtEWVYtc9IUCvybQJViE72uOTyq-3HXBLNBrWdEN-gMGtL9CoQu-RxP_WOxx6Cqi0tWFhgMdfJB8XMLlSuiKKLSTvB37FenrzafDht7OLZIJpGyeuplRWax3fmglOFq7rog7WUlHKLtSvVHI2JXC?width=232&height=188&cropmode=none",
+
         ),
-         SparePart(
-          stock: "1424855",
+        SparePart(
+          sap: "1424855",
           numPart: "40-1",
           description: "Cadena tipo americana paso 40-1",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 14-37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mHiAOFHmWQnQOAa24_FIpj2vuHQX5kuTt3FXm0fyp4AVOTh8qDGNAAS0v5lIwHAB9eeuJorMdhwFUr_4q6LL_t1rlaMbuc5dqMzp-IyF0ZXIx8bsK--L9PJ5KWFbY96zycRf4dBkuygXgxmffbIr5vVnwZl-qKx_noKYicXvdddk5tDc5WP-T-jjoTSwnj7MI?width=220&height=214&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419132",
+          sap: "1419132",
           numPart: "LS92/4E-S1",
           description: "Sensor fotoelec recpt infro LS92/4E-S1",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 14/37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mWJdnlHaQoh7IsOnduumWSq3rbZZk3dqOlvcuenwFlD4z4dkFYdu3Rjz3za9Whe0T6CLZQFXfkVy355phEBK_KFywVnSH2xKh13CgydLWGlZfxY0v4_mCgl8I8K_fw4DwiQ3j-LM-y3kCB2iT_oWaZVyeHJ6njvHNDxkqMfQwAe7Ii9DRv9Zan1smxjowVdV8?width=189&height=247&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419437",
+          sap: "1419437",
           numPart: "RKC 4/7 6007302(1204-G)",
           description: "Conector recto tipo hembra 4A-250V",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 14-37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mBrlTkw97SiP-7ORhsSDVErvRkMJ7f2MVQU2rIhC5750-XxUqPW-ZV3u6yG73ACtfj7JEpDf5RfhIDQ0643oyqYPEwr7mLn-GUD_uWcaPk8zv72TB0v-Z-hn4trPq14kgGiWjSOZza7sCOwLthNW8CMs5LJl-CVT8zpoJUKCpWwJ3HJdwEtTotk-JFCGwQrpy?width=189&height=249&cropmode=none",
+
         ),
         SparePart(
-          stock: "1418905",
+          sap: "1418905",
           numPart: "1204-W",
           description: "Conector codo hembra atornillada 1204-W",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 14-37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4m9Qo2DhX4SDjfAZfOhG7cyKDUwmiyVONuMeY55Sn1I011mCO_Hg8gj5r5-K7ANb03iMCPkHRvhQIYLcA0Kous7Eh3g2PBiomLbthzjqz33Zbtk6gsNVZOxOLrx5lUFkOsmDg1tjM77GNkKnDesvjAutR1AWwjS5ndYDUQMGvTgsy4QZ2k7CKHQN-sKOVw3ytt?width=252&height=188&cropmode=none",
+
         ),
         SparePart(
-          stock: "1422886",
+          sap: "1422886",
           numPart: "E11624",
           description: "Conector macho a cablear M12X4 PINES",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 15-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mkfjv7P6Z-O1s8g6av1WHuw-eBf5pqV8TJbVRIMe2lBto0XoDJZd_qda1chA2J4MA7HoRzneV1xJG35R2OiXrgbhZWds3RUfAfD2DohgjF-UkkjpctEcFSYZZpd-Rsydh-q5pCLdX7f-2THr4HY2FVoKLjLOvYIy9cMwy6zrjScbE6J-biZ5s5XrSK8AhF9TA?width=254&height=197&cropmode=none",
+
         ),
          SparePart(
-          stock: "1418670",
+          sap: "1418670",
           numPart: "12MM",
           description: "Manguera de poliuretano 12MM Mat. PLast",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-09",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4ma6XjYaNaKJ3u6t8ur7R3dfDdveXDIy-gz5G0JPkRlKpAx84UFa0wFv-tQXAbTJNALOF8PmXllJQyBuAD07zRjxK5kRlpP-BmngWsgpAwuiwWjWCLK1CsZiEJKYr49P8EZeInwNRvbl0CMIXk9RHllQ6h47AyfbeZRWogaaniNiUWF1C7G-0ERLsQVluMsYww?width=194&height=191&cropmode=none",
+
         ),
         SparePart(
-          stock: "1425550",
+          sap: "1425550",
           numPart: "10MM",
           description: "Manguera plastica 10MM. Mat. Poliuretano",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-14",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4myBLIwtvbOjuMI02hO1-Ox3H-PFBIuFxS-xpN0FuneEDrHbTH5mHwbYXYTkEw4cjGDk1YCIjn7pQV92ixca0nO59-_ooKxyuEe9Ikq_e5kAbqY8aSG0a1GGCMrDH3Hf8NRD3B1zXAMwCg_mXgbxsb1G6wsRmVdJEQ4E9o-dnPKzOP1XzGbG3OxthQ172fEUFE?width=158&height=198&cropmode=none",
+
         ),
         SparePart(
-          stock: "1425438",
+          sap: "1425438",
           numPart: "8MM",
           description: "Manguera poliuretano 8MM. Color azul",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-12",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mlujNyX7GqpyIx6utdhacyYcY-G-O4q_4Adu8etnH9o6_LP6pqVGzFLUriFtafD3h9ltQJZdK8HPpB8eWmkxeMkqLyNWAG-exNnQfE-ML6qhdppPZhIma4Dmdxwcom7pcOdhT7lUlVCEInDrTmILv9ZxSjxLl4U_UhuRt3D_azK4EQuubexGHlWxJaWxCfXYE?width=194&height=193&cropmode=none",
+
         ),
         SparePart(
-          stock: "1260352",
+          sap: "1260352",
           numPart: "MFH-5-1/4",
           description: "Valv SOLEN MFH-5-1/4 -FESTO 1/4 IN",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-38",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mhcMzwdcU-eabF_q7G8lQKzRThq-kjXOPZh1pOiCQvMNQN5kgO8yszj-qFaTASXxxOkcUXbSj5JkZIntqKJ3FwZbLBh79AXWSwf1RK4tT5KsWw_SVO2tR8Fq0LLIKtKsRsXaVB7CPyAf0aC3VMPTtJOr5PuzQk0dDGz0TC-By3dioYGpzZSgdrLV1LqzX3UKj?width=189&height=195&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419282",
+          sap: "1419282",
           numPart: "JMFH-5-1/4",
           description: "Valv SOLEN asiento valv 7 MM JMFH-5-1/4",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-38",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mlmAqic41ECGvZRIqlhIA_gvEZd4UPo0Iu-1N0tx5Si7L7VA1JOn0CyfkAzYHSj_t5nHuyA8OQBvJaSOpgwqXfjThV30BX0yqczIjuVhi1wGiNxBwNDjpg8z3DYd8vp25EHyk8GPHd-0c0ySK4qGjC1uqw_sNAf85_smb5xWrmM4kyGTe8F0nD-3hKXm0tZoh?width=252&height=173&cropmode=none",
+
         ),
         SparePart(
-          stock: "1419327",
+          sap: "1419327",
           numPart: "MSFG-24/42-50/60",
           description: "Bobina para electrovalv. MSFG-24/42-50/60",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-38",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mV-dTlfNQXXIY6poZS-9ZKHCFxhkKdcPoHNeqFUlEeQ6yjMcQltTLf1iAh_hwxilPnnO3SqeLk1uQBt4TI2uZrcvGwsgjkRoEAYfHGIFzAs9ukdPxFItQh_AuTO42iKwtqOj0OgujqSZUpHMnMnMurN7WZMETYIVauZIgQ_HniItOLPWb5wZERd7HEYVKK_Qp?width=206&height=207&cropmode=none",
         ),
         SparePart(
-          stock: "1178062",
+          sap: "1178062",
           numPart: "5725550220",
           description: "Valvula electromagnetica",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1EKN-2 /385161/01/01",
           slotLocation: "3000 Reffac. Linea EST 05-40",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mojog0BAWO0jielwjbOR3UqipsbHc-AkhhaLqytikGw6JwudPfoHhMyyhkIi6cA8mTaCaTNOD3auMGDfolR7MHoKD9_7K_Ei0p3d4DsEwQjR5z-onZ_faq7vADZlupx1fL10XxQyuXVH0n__ofAvYOK7_pxK4kdwn0R5dZlxedz4hq3WMGXduJRFOernBeI_R?width=191&height=251&cropmode=none",
         ),
         SparePart(
-          stock: "1421792",
+          sap: "1421792",
           numPart: "S301268751263",
           description: "MOD. INTERFAZ P/SALIDA S301268751263",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1 BGN/1 301370/200",
           slotLocation: "3000 Reffac. Linea EST 15-03",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mr6r9ANgfFry8hCykeK6Y4kJ_8F3c_t9oiMrmLP0hPxZu8yeCSU1uG4zxx4EQHBwRbe_UvGVsx2b7a_p2NeqDIUl0BijvE5Pyz7d46VshWkezJqMXwzG0ubFw3-4maA5JblLjuRNkTzBsSIv3yYWq10j8pBrvt3KmES_oPAE9x5obQUoURtGsKVqQa_BwTEhy?width=139&height=175&cropmode=none"
         ),
        SparePart(
-          stock: "1422059",
+          sap: "1422059",
           numPart: "3RK1400-0GQ20-0AA3",
           description: "MODULO ASI-I-2E/2A 3RK1400-GQ20-0AA3",
-          machineSerie: "LORD 1 BGN/30 1370/200",
+          machineSerie: "LORD 1 BGN/1 301370/200",
           slotLocation: "3000 Reffac. Linea EST 15-03",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mr6r9ANgfFry8hCykeK6Y4kJ_8F3c_t9oiMrmLP0hPxZu8yeCSU1uG4zxx4EQHBwRbe_UvGVsx2b7a_p2NeqDIUl0BijvE5Pyz7d46VshWkezJqMXwzG0ubFw3-4maA5JblLjuRNkTzBsSIv3yYWq10j8pBrvt3KmES_oPAE9x5obQUoURtGsKVqQa_BwTEhy?width=139&height=175&cropmode=none"
         ),
       ]; break;
       case 2: return[
         //Desempecadora
          SparePart(
-          stock: "1418152",
+          sap: "1418152",
           numPart: "H45640018841",
           description: "Tulipa centradora inferior",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-16",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i)
+          image: "https://bl6pap003files.storage.live.com/y4mVvTbe1Vi7lHGHQVf5Y-Yu6L9mst_Ag1vH1B-2uYuZ8T43k1vb9jxws1iTZPcEbO4V8QE8WI-zFk97VNLORUPpqITBNr0FnnEmvsDobQ8uTdc4BNgJb_LScjsETraqtE2pgYWCLGeQ09NhoOCTyvT2nZK8kpjX8Iy-wWHEjD22sgpfD5eodaHCIYxOGohqI2f?width=187&height=216&cropmode=none"
         ),
         SparePart(
-          stock: "1418630",
+          sap: "1418630",
           numPart: "H456400018831",
           description: "Tulipa centradora superior",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-12",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mg3hPL09sCRl_u3QDOlICUIkOIvhCT-E0q_1ptBG1Wbav2PbOJ_QipYFKf8d5WjzTIE-VIRp0vNFyw0fbeUDR1zdRbIioNWvLO29zYN7HM4z7xViY_0s7D6874dkH0SCATWWsFqnHyHt8uHr2Jgu94-k6lIdQTjLmIUhP8uEKF03JAO2WtoTLqhtHC1MYVgOo?width=133&height=134&cropmode=none"
         ),
         SparePart(
-          stock: "1418153",
+          sap: "1418153",
           numPart: "H45640014084",
           description: "Membrana de tulipa",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mzUSGBWKBvf4SOpGVQZ81vTAXmeByEowwL53aWfefCGnqCUiCrA08WEBuUoWteg44w3BTOJWan6JImtMnJkiToQAptJl2fHnSc13aYbjYkPQB7iEeYZa548K-BJ233ytzxcMC46Jq8jHgdMVM2SZDen0z1rRBh0b7BqmWk02O77B_JkYzUC7cXlyfSUqb82Pn?width=180&height=187&cropmode=none"
         ),
         SparePart(
-          stock: "1418154",
+          sap: "1418154",
           numPart: "H45640018733",
           description: "Bulon de sujecion",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mWiD0LaAuZdg017hE6tFB2JjMuBhAmr6GA9vU_VwqBFdVHMp7QVvfINBLp3Hp6OW3QY-d4E3D056nGMav0mE26v6Wnt55vM26UZHzJm20vW2nEj6M1lGVjVeu53LBFcNMlPM3_GK0FmX1Cb_F2ggwZOZvIFcpjWu0HppJzLpz8xcpV_kX5aRHrFVhSZ7wAgbR?width=159&height=197&cropmode=none"
         ),
         SparePart(
-          stock: "1418108",
+          sap: "1418108",
           numPart: "H45640018721",
           description: "Platillo de resorte",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-09",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mcHxcwFIfDSLzmByM-quzXzV9EKVHppX2z1x04F0Blt80CQQ7spm0S0r1mksBo9csW4NJGowomCQmGkXR2T1ZOPhpWmPS1AepNf5b1hLVqSaGgwbKSjOCVYxV7TyjZwyKOILJoIoplDQjv7zdWsg3DBoB2t_oPr-8yU_nvxEaI-08IYmmyl2SisC5JYpDBOZA?width=194&height=179&cropmode=none"
         ),
         SparePart(
-          stock: "1419626",
+          sap: "1419626",
           numPart: "H45640018721",
           description: "Muelle de comprension",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-14",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mt6jI7ipQAyL7-VqwnHgIdQSxnAUJj6ElukskQjwrqiaQWwJGOEpolHvtMivxS8IJiFHea44CGgmvqOQPTYRQIVOyWJbzI_d218ydJ4MYX6i0hy2x6jqkErVuipJ7ghQS1kudfw3SIvYAlK2XPi8mBSMtSHqmDKD6oCwap0UpTO7pD7cJEGmGklZkYECzO5Ef?width=263&height=199&cropmode=none"
         ),
         SparePart(
-          stock: "1419626",
+          sap: "1419626",
           numPart: "H45640018721",
           description: "Soporte sujetador (Bastago)",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-05",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4m1uQadFl80o9nfPwSBu3UpGTW4q9mZZTVljoybN4KcDiDYXugHVdtiCR3O4eTKq8qBUS2lrIMi9P-_3yy74K0-0y8_MpEBvsQ12QFT0AAi9ZfacF4TAh_lh5aBo7Redx8tBTlhkufH6DbZ4hbRwjErfdOI2I9PxTRdLb2v6aOMcz2iDiSvYRQzA3O6fJ6bpo9?width=285&height=129&cropmode=none"
         ),
         SparePart(
-          stock: "1269000",
+          sap: "1269000",
           numPart: "H45640018781",
           description: "Tuerca",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-16",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4m5J1exsgi1Z8k-NnSlZ_3g5AXc5ovEzQoX5qus0uCheScna-cZODzB30tWbCpdr8rpEtdBQdp3vkabKwEvIZgbUTq1WRsDKOifsXuJ-EJLTYzPOEiEXNxU3SPfRjiJQj9YXlrlJfvg0gh0Z24t-StRAAbuiTglhW7V2Jvgezm7lW7N_nIjsHCUwX1Shw9wOzQ?width=220&height=141&cropmode=none"
         ),
         SparePart(
-          stock: "1422761",
+          sap: "1422761",
           numPart: "H45640018774",
           description: "Pieza guia",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-09",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mnJfV8kZ2NFKSSQx-AJHkeThMwglJ0ENiJXHKZJDYefQmijGjFOIEbnPFTWYJinJWosyex_f_KH78i4dCfSO52_nmEHtFuj_ObX0V8cpDdhYjatuvkXeIrWf48jlEGAQ4vPaSxU01grfU_BeQWQAzwJyIsr_CoJ8AiLFcXP9UUN9ZF-2dSiLmPnZRJnKZ2l70?width=262&height=165&cropmode=none"
         ),
         SparePart(
-          stock: "1418129",
+          sap: "1418129",
           numPart: "301114300280",
           description: "Tensor de cadena",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-16",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?w=2000"
         ),
       ]; break;
       case 3: return[
         //Empacadora
          SparePart(
-          stock: "1418152",
+          sap: "1418152",
           numPart: "H45640018841",
           description: "Tulipa centradora inferior",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-16",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i)
+          image: "https://bl6pap003files.storage.live.com/y4mVvTbe1Vi7lHGHQVf5Y-Yu6L9mst_Ag1vH1B-2uYuZ8T43k1vb9jxws1iTZPcEbO4V8QE8WI-zFk97VNLORUPpqITBNr0FnnEmvsDobQ8uTdc4BNgJb_LScjsETraqtE2pgYWCLGeQ09NhoOCTyvT2nZK8kpjX8Iy-wWHEjD22sgpfD5eodaHCIYxOGohqI2f?width=187&height=216&cropmode=none"
         ),
         SparePart(
-          stock: "1418630",
+          sap: "1418630",
           numPart: "H456400018831",
           description: "Tulipa centradora superior",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-12",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mg3hPL09sCRl_u3QDOlICUIkOIvhCT-E0q_1ptBG1Wbav2PbOJ_QipYFKf8d5WjzTIE-VIRp0vNFyw0fbeUDR1zdRbIioNWvLO29zYN7HM4z7xViY_0s7D6874dkH0SCATWWsFqnHyHt8uHr2Jgu94-k6lIdQTjLmIUhP8uEKF03JAO2WtoTLqhtHC1MYVgOo?width=133&height=134&cropmode=none"
         ),
         SparePart(
-          stock: "1418153",
+          sap: "1418153",
           numPart: "H45640014084",
           description: "Membrana de tulipa",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mzUSGBWKBvf4SOpGVQZ81vTAXmeByEowwL53aWfefCGnqCUiCrA08WEBuUoWteg44w3BTOJWan6JImtMnJkiToQAptJl2fHnSc13aYbjYkPQB7iEeYZa548K-BJ233ytzxcMC46Jq8jHgdMVM2SZDen0z1rRBh0b7BqmWk02O77B_JkYzUC7cXlyfSUqb82Pn?width=180&height=187&cropmode=none"
         ),
         SparePart(
-          stock: "1418154",
+          sap: "1418154",
           numPart: "H45640018733",
           description: "Bulon de sujecion",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mWiD0LaAuZdg017hE6tFB2JjMuBhAmr6GA9vU_VwqBFdVHMp7QVvfINBLp3Hp6OW3QY-d4E3D056nGMav0mE26v6Wnt55vM26UZHzJm20vW2nEj6M1lGVjVeu53LBFcNMlPM3_GK0FmX1Cb_F2ggwZOZvIFcpjWu0HppJzLpz8xcpV_kX5aRHrFVhSZ7wAgbR?width=159&height=197&cropmode=none"
         ),
         SparePart(
-          stock: "1418108",
+          sap: "1418108",
           numPart: "H45640018721",
           description: "Platillo de resorte",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-09",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mcHxcwFIfDSLzmByM-quzXzV9EKVHppX2z1x04F0Blt80CQQ7spm0S0r1mksBo9csW4NJGowomCQmGkXR2T1ZOPhpWmPS1AepNf5b1hLVqSaGgwbKSjOCVYxV7TyjZwyKOILJoIoplDQjv7zdWsg3DBoB2t_oPr-8yU_nvxEaI-08IYmmyl2SisC5JYpDBOZA?width=194&height=179&cropmode=none"
         ),
         SparePart(
-          stock: "1419626",
+          sap: "1419626",
           numPart: "H45640018721",
           description: "Muelle de comprension",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-14",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mt6jI7ipQAyL7-VqwnHgIdQSxnAUJj6ElukskQjwrqiaQWwJGOEpolHvtMivxS8IJiFHea44CGgmvqOQPTYRQIVOyWJbzI_d218ydJ4MYX6i0hy2x6jqkErVuipJ7ghQS1kudfw3SIvYAlK2XPi8mBSMtSHqmDKD6oCwap0UpTO7pD7cJEGmGklZkYECzO5Ef?width=263&height=199&cropmode=none"
         ),
         SparePart(
-          stock: "1419626",
+          sap: "1419626",
           numPart: "H45640018721",
           description: "Soporte sujetador (Bastago)",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-05",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4m1uQadFl80o9nfPwSBu3UpGTW4q9mZZTVljoybN4KcDiDYXugHVdtiCR3O4eTKq8qBUS2lrIMi9P-_3yy74K0-0y8_MpEBvsQ12QFT0AAi9ZfacF4TAh_lh5aBo7Redx8tBTlhkufH6DbZ4hbRwjErfdOI2I9PxTRdLb2v6aOMcz2iDiSvYRQzA3O6fJ6bpo9?width=285&height=129&cropmode=none"
         ),
         SparePart(
-          stock: "1269000",
+          sap: "1269000",
           numPart: "H45640018781",
           description: "Tuerca",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-16",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4m5J1exsgi1Z8k-NnSlZ_3g5AXc5ovEzQoX5qus0uCheScna-cZODzB30tWbCpdr8rpEtdBQdp3vkabKwEvIZgbUTq1WRsDKOifsXuJ-EJLTYzPOEiEXNxU3SPfRjiJQj9YXlrlJfvg0gh0Z24t-StRAAbuiTglhW7V2Jvgezm7lW7N_nIjsHCUwX1Shw9wOzQ?width=220&height=141&cropmode=none"
         ),
         SparePart(
-          stock: "1422761",
+          sap: "1422761",
           numPart: "H45640018774",
           description: "Pieza guia",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-09",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://bl6pap003files.storage.live.com/y4mnJfV8kZ2NFKSSQx-AJHkeThMwglJ0ENiJXHKZJDYefQmijGjFOIEbnPFTWYJinJWosyex_f_KH78i4dCfSO52_nmEHtFuj_ObX0V8cpDdhYjatuvkXeIrWf48jlEGAQ4vPaSxU01grfU_BeQWQAzwJyIsr_CoJ8AiLFcXP9UUN9ZF-2dSiLmPnZRJnKZ2l70?width=262&height=165&cropmode=none"
         ),
         SparePart(
-          stock: "1418129",
+          sap: "1418129",
           numPart: "301114300280",
           description: "Tensor de cadena",
-          machineSerie: "GARANT A1-2500",
+          machineSerie: "GARANT A1-3000",
           slotLocation: "3000 Refacc. Linea EST 09-16",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine2(i++)
+          image: "https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?w=2000"
         ),
       ]; break;
       case 4: return [
         //Lavadora de botellas
          SparePart(
-          stock: "1422608",
+          sap: "1422608",
           numPart: "194.13.20.534/1",
           description: "LEVA DE CARGA 19413205341",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-38",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mnshg725enzabxMLXB82Ly9yBnqMc3xCc9nJ2loVCJtarDLBVLLjm5KfxRg0kskwrJxcckZvXMrb7XWheXkvRfd6LAFCe5xBuILV2nxvypbDZVqWcgbZ8uLeSAn0BbWpVwfiVB_9sl73fqORXU6PKc3e89iqLLqiafQeAn2xp2oj3E10wYjaR0R2oqRnfeMEx?width=346&height=260&cropmode=none",
         ),
         SparePart(
-          stock: "1418650",
+          sap: "1418650",
           numPart: "194.06.20.205/14",
           description: "PUNTA DE LEVA. N/P 194062020514",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-63",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mgsGYarLxDYxc1FoFbQ2etnNkLlkCy-jFDZwWhTwHmdrjIXJv2Fvg6oz5btNFR6mIUPx2-ZAAKSn8TGE3sFBZgqe0nGfjP096ZBGRTmCQ4LA2736HUtQLOkFCzUmzQFQ74nDUIuGP2GrXwW8_CGf-O8LvLjKOK3fS0LByq00B-P5yoHq66bbqDzM62gcH2h2G?width=371&height=279&cropmode=none",
         ),
         SparePart(
-          stock: "1425544",
+          sap: "1425544",
           numPart: "",
           description: "GUIA DE DESLIZAMIENTO IZQUIERDA",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-48",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mdHoVfVuMnT9FK28x8fG0Fsfi7B-7roU0yeknO6XeHaca1GRkn79HqWaA6qNv76a-YGNSUI9PIIveCqNzSr3pFmWj0DbvPa4VqgM9LF-kSCJKTGI6HaovrT2i0QBGpyCzd_dJCaPUzmJ1qaycls81BBO19zm121kbC_cN2l7jkqsyKXErXvtzgH3P7Qnu2eIr?width=314&height=236&cropmode=none",
         ),
         SparePart(
-          stock: "1424274",
+          sap: "1424274",
           numPart: "1129.06.16.002/2",
           description: "CRUCETA K Y M",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-67",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m-GUsgS4QDp4XhMAqqVSWDfwIlPROMPxouEqulZD8QX59oNbmcbygb2V_gTpsDRQVQfbSfv6DIU7xee6Fn3LCaOYbYzIUsAjUa0gGWZaiyifD7xWyHe-I2VcBZvBGAJJEb6bHUVmuTJnodnNF5GBZRgMgfUnqxSggUPDCfNgl3ktluDDrKDtt-gGoKxcURkAp?width=341&height=256&cropmode=none",
         ),
         SparePart(
-          stock: "1422830",
+          sap: "1422830",
           numPart: "194.13.20.552",
           description: "TRAVESANO DEL EMPUJADOR 19413220552",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-39",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m5uHr7ndlRjT6o8nItgtrBEvfhGG0kpDZifVIWr6WHoHCnifaMfp7o92UfQlKn78EiNecdfjOcuQ3VePd_2ibkJT0mBI7l7pRhVok5BWNEspIahg11QpHj_1Tf2Ajo4yeZYNeX_DHaUp-M8xTFtCCOhgcP_wNTlrBg9cmgbIWkNZTb4I9NJdVO9C-YpirjioL?width=349&height=262&cropmode=none",
         ),
         SparePart(
-          stock: "1420147",
+          sap: "1420147",
           numPart: "194.13.20.155/1",
           description: "PUNTA DEL EMPUJADOR. N/P 19413201551",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-43",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mPxu3rbaXyiNgp-63Nb2K4yYbavt08EausMHtJeNPZLJegcxKtnn14KlthNrYp8LgKuOIKh9WdB8WovTrAaJUMoI1mByTdWznwkJ9iWaUGaAaiVXR569XwrMEYVy2h0nTolqFL4GEhi3fVchMGFoo_1iNgOi5uQaZmalSvc3Pj8_HnCtrvtUKP4vD5gYSlxWL?width=362&height=272&cropmode=none",
         ),
         SparePart(
-          stock: "1444470",
+          sap: "1444470",
           numPart: "1129.09.16.011/1",
           description: "PARTE SUPERIOR DEL COJINETE",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-42",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mDOYNuZP_QHHOv-kaiVqC_qT6NfHV6KczVc_14rIyYm2I5MlgDKcOqld8TFUHUN_Y9D5GuQdi4mbl_o7yyiP3yrXBRKIr9LAmjtIYyRMTu9dcgGULHGNaRlRDSOAoCuMXmb-xHRTdq2CAfX1exDXNKvj94nB6qyasi7Y4IeOEcz_1rzapS95ctY9KQQI_3UrW?width=354&height=264&cropmode=none",
         ),
         SparePart(
-          stock: "1419945",
+          sap: "1419945",
           numPart: "1129.09.16.012/1",
           description: "PARTE INFERIOR DEL COJINETE.112909160121",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-42",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mIXbIKbFOHolAUSRDbiQRKXAFAs0q0y0AguaKfCd-JvvRx99Cha5kGlwCQuhatnUBe_qh18Jnas7Ys5nEUhZzRX0mWuA2c5iScdukvoy6UftTuL2TBg8-3lh2U4vvKOi4KoXFNcAZMwejQmLAZGoQe5y_GHZ1ZVJKZAS82djWkO7tBv1XCUFSQwr5ULmE7dRZ?width=341&height=256&cropmode=none",
         ),
         SparePart(
-          stock: "1420339",
+          sap: "1420339",
           numPart: "03024011390",
           description: "ANILLO O. N/P 03024011390",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mGb8wGmKzlZ3vhzu9HbT_OsF2VvWMqUsPNs64Ek4-bFS9CKNupxTZBBPFpKKB5_n1HIFf3KWnPwBbWjc5IyBA44uu3ky1Mumgr8V-Agmc5IIQsnDMa29LQVkwI4VS1i-tqVO46M29d974-WFXznqyR0zjHF_SItAbp1XlxZVlM_sjgPIyoHKGwWXzFNw9p3jM?width=331&height=248&cropmode=none",
         ),
         SparePart(
-          stock: "1418756",
+          sap: "1418756",
           numPart: "1129.09.16.227/1",
           description: "JUEGO DE JUNTA 112909162271",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-44",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mTr2QGzectJK3D29ahwU1cYLGUJjN3ClWaoa5oybLOSW3g7V5PZiktO8igc1k32VnytZwFSHURveisVz7iIg8QRPAJPI6heJVFA2ITKWSlC4txhUx2veoyCTBpbNjD3l5lvC7RUK5wRiHQ9FFSFRqSrUF7SX0TX1MYonSqHlVtKRHnsqqIQXxEHk1VxKf__9t?width=355&height=266&cropmode=none",
         ),
         SparePart(
-          stock: "1418755",
+          sap: "1418755",
           numPart: "301024012200",
           description: "ANILLO OBTURADOR 301024012200",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-42",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mNccT4dmxz8CB32kxAMJlBcwG2NgwOHNcpNDjPuXMoM_a5NETkWP-bXIh5--b2TLDxt7gaZaYDVfVHMZMzKrw-dAXx6hxwrHYFXlMaQQAUhROZsAk_EqtEEZ4NDR69sxEoKUvp0Xf4DGP7UUHNzoOgNzYtBMjSOVQfcG9gn-lNnVOe32wOPVSqpMGv7Lej56l?width=399&height=266&cropmode=none",
         ),
         SparePart(
-          stock: "1420341",
+          sap: "1420341",
           numPart: "1940.95.00.440/1",
           description: "PISTÓN CHORRO ROTATIVO. 194095004401",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-37",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m-Gi9CTqPzss7rVmOks4u-RxbjkpEXUKTKa6yP2JOLTlJTNDW9YH_8Toy5mCav8t10vzDMlKGcbQR_THf1-BkZcFICxTtoHOR05LVtPYXYCUPZi0DY-AE-xbS1djBU8z8K9tffVJ_0w7S44-BcS1mypc4fk5Ey0DB8ux0sZ-Kw5R-YKSX5vOpYdgWrQ74elEM?width=414&height=310&cropmode=none",
         ),
         SparePart(
-          stock: "1423909",
+          sap: "1423909",
           numPart: "194.09.20.103/1",
           description: "PRESILLA P/TAPON. N/P 19409201031",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST14-41",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mQ9groP2ci2d2J2Lm6-0BASX8J4Uw1v01OGBn5dfwuoyrtiUOSqNO27C8FEC5FtbKSlbqflDoZlzjY0w8MH2MY4kZMQTkoeux8HIkYjfSct1vVllq4dQMF6S7gjXS1JpfG0IxPGb7wnKFhofYNBHhG1COMrWkFG5kKZTv-LA_PpmO5p8zepdJ0YeBYQyB927C?width=347&height=260&cropmode=none",
         ),
         SparePart(
-          stock: "1419640",
+          sap: "1419640",
           numPart: "1940.32.00.181/3",
           description: "CANGILON DE BOTELLA. N/P 194032001813",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea CONTENDE#7l",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4myCiMO0Cd7qRdhSLJ34YDOpqobNvDyFwzjF280cDmjEr42j1fTTkgIBmAj1-Xl-ver9mirBGO1Qhr-k1zw2IkyfJBggOM92i5AssNmG1-hC4Xk5CTmEs9jTIeEkuXH-_ma3mLE1KzTxnMGRnNI9YwTARbQQm0M5YloiV3w0zkDZ0TZWhKT3Qh_GOpjurm4_kM?width=337&height=253&cropmode=none",
         ),
         SparePart(
-          stock: "1447931",
+          sap: "1447931",
           numPart: "IFB2002-FRKG/PH",
-          description: "Sensor fotoelec recpt infro 30126881140",
+          description: "SENSOR INDUCTIVO IF 5723",
           machineSerie: "INNOCLEAN 40 /125 DL22 / 420 PET",
           slotLocation: "3000 Refacc. Linea EST05-31",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mhmOlP_utu7TzaUn-Rg3CZkptpV--M-phIypLqeadT48H4upOjBN59JOt4l-mpOHUW2X4_pgpueDfDyj7UgjTbngARPDNImFlhESrqt0o7Lac2Im8vIHh7LNjRisvH0mlgQfa943caLJuwpVN3DvdTgjRY0_q2tpVuMORmW7WB1Zvd8fFkOr6oTy21qidfuSg?width=313&height=254&cropmode=none",
         ),
       ]; break;
       case 5: return [
         //LLenadora
 SparePart(
-          stock: "1418510",
+          sap: "1418510",
           numPart: "X58811052",
           description: "Tulipa X58811052 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-07",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m9lpHG7RahDOEohz4mT5jVr4OHGeS5muRdfMjjGEeEHFzTtIL1EdCBJAh6_6RSoeUsuFB2iS4rJi48fWUc2akj_uzOZ02UHF7bNAPLl9AwRjNyJkqbwGbF4Dnc4Pt8olUe6mUvLAbMTzTPGppRHsjeLlFQ35zvfor49iLCGfes25rTpTmF_Sx82GiDNb0P9zq?width=148&height=195&cropmode=none",
         ),
 SparePart(
-          stock: "1425504",
+          sap: "1425504",
           numPart: "X58899715",
           description: "Goma de aprete X58899715 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-08",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m8CljYKMpVl8A-JoOOgnVo4MEsqDVGbA1UY2EYczx9vCWiJhNZd26R84Un4h-HQasraZwFqivdh2rTcnD2Bqo2sWpLBcEY6pOjofdXK79b4yzT-Pe96UmWn4BjA5Vq8gH5uTncf-Tf2qf0zRckTf7McWH1St8d_xR-i-Qors3BtwWZRD8OFtThA-rUVhHNxdq?width=188&height=193&cropmode=none",
         ),
 SparePart(
-          stock: "1418610",
+          sap: "1418610",
           numPart: "57011381",
           description: "Rodillo D PRES 57011381 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-22",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m0WfRXvfQwIVG-9dkCP2VVX9IISXLd2R29xWktmMgONPUKVVEybpIC8l592fJ2dtmXF7JXoZ7h9VixkIQ9RhG6o30cEEk0mIm1KqxP0dXb4p58jBKiR6Ja_j1hVkU9dF3IGE9mkqWb6DtUOArg3q9prfJZ9_5xq2DuFEd7mfnc4yGk7rcltncRnsUPdUC0xHK?width=159&height=208&cropmode=none",
         ),
 SparePart(
-          stock: "1418403",
+          sap: "1418403",
           numPart: "57099525",
           description: "Cojinete deslizam 57099525 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-05",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m65jknnE7pGbFuCP_kwJbVZsf1FXkIwKMCogGNANtLINiuRvb0eniTvvuf9b06VEkhfV3f8xIExZBhMK8EdOMft_7MeAyFY9gh6NjmlRzVIprP2fSVnTlqUsTBIfe8nbJBKMh6SeQpMlqNd9iqwCxVyEWNzDtc6Dj7KU3HyK60mXY9fhqJ_eMARuWkGMZfJvC?width=137&height=183&cropmode=none",
         ),
 SparePart(
-          stock: "1418984",
+          sap: "1418984",
           numPart: "58811031",
           description: "Esparrago 58811031 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-28",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m7f_-BvwK9hJqOpRymYYkMjsZ0TOfP7-MvwLIkzuhFeRQtq-jqvYlWbKp9DsvqQ19YF0mfBJPXxyYKu7qXlPa2si7kmOKL25BTRw6uXVwnTCyQYovkaCV8BL60qlkzbKmWdHgegUK4OtnUKu0j0gF8VkV02qJJ_CgZU-yqjrmyg5Zd4MgUo0Ft0kNtKFswtK7?width=164&height=181&cropmode=none",
         ),
 SparePart(
-          stock: "1419592",
+          sap: "1419592",
           numPart: "X58811205",
           description: "AMORTIGUADOR D TOPE X58811205 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-13",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mBXnle5CYmbaoo-LY_r7tVtWDSBKUECOcBrVk3Y8hP18Yu9yLXuks5qrjDLRLxBr-thH0-iNdp_eydp51zRRldlFA91pU6yQsxN5oRl2Z4AIZcFMDfEg3RSs7HAEZCPERaOIJZVPZdcvoni0dQLrQ_eKi1x1wRtNUUMVoZvwmAc7TglBPejJwYpiS72h3fs_R?width=256&height=192&cropmode=none",
         ),
 SparePart(
-          stock: "1419225",
+          sap: "1419225",
           numPart: "301104821100",
           description: "CASQUILLO 301104821100 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-05",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4meA-QWGUPRsClpJK0tuLXbdWDwD3Ojx01sgQb4uMy3Oc0r5xd7N6OPWLid29kr81y2AetLVUHaQVNQoK1V6xDpYe52r4fYP7ZQahwU-g0bLBFe9hReu-HhFC6Gbg6a29fH7N5FjBaNxIPXOgFupcJG29F1ES94OKvsv7tYKOefiRDdpnh2ja5MeIZtSZZPvaK?width=256&height=192&cropmode=none",
         ),
 SparePart(
-          stock: "1418504",
+          sap: "1418504",
           numPart: "H20233033773",
           description: "JUNTA ANULAR H20233033773 KHS.426",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-11",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mWt1s9OhLNxW_nZwSdVmY8ORaHOB1kFIH9EXIEJkdO15dj_n74fsjImGKigY2fGsbs51Ka7PEdNEgJ5II6_pKiLHPkK1F2GPsU3MwtlJquaqUTC_knKNmuljOsSBFI_3yiqD5mutFNv7LawR9ahhwioemjf1EGvfw6JEMa8C9fQuLfpdPfkxVFXq4AJXWvo-C?width=380&height=285&cropmode=none",
         ),
 SparePart(
-          stock: "1418356",
+          sap: "1418356",
           numPart: "H23505010141",
           description: "DISCO D FRENO H23505010141 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mP69-QOtYlnMoqps-CWkrht1UjZGpWVrmD_8NEXUlrhBBbfFQ1s3k-tzM_k_TubhkwCKvZmrKsO49vfL-J5Jv4kJSXrzbxtK_S4AmRq7StciYi1yJ5NDO1_TRPaQp9ez-db7F04LPM1-RySQzsWnc0yhmrkln2xV9GiEl8SArpslndExv8Say_qrZ9csYHAf3?width=256&height=193&cropmode=none",
         ),
 SparePart(
-          stock: "1424565",
+          sap: "1424565",
           numPart: "S/N° PARTE",
           description: "SEGURO EXTERIOR. 19M MAT. AC. INOXID.",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST13-41",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m0uUOL1DZTIFJlibCGlbQswyL07kgZF5WSaXspjh_7XL0iVUUx4rPMb2ntQfCoUFt79xxmq6Q1KLbqRpxdi9QYUBoWt8FKa8JjPtFKA14pTMPqjoiJhk4JK7DfskhWaMml90b7nUUwlxA_3zmnDNGveTpPhLS_HAkHAAyEjY8dBv6a0s9zCHPOH48xe3EuSGa?width=302&height=226&cropmode=none",
         ),
 SparePart(
-          stock: "1417898",
+          sap: "1417898",
           numPart: "X58811189",
           description: "PALANCA D PRES X58811189 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-10",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m5o-6qpFcclHMd1ih-P61ir6ZqKvQ3pHAOtIgcUAqvmZsvwve_16aZhDygLOqYdKrT5wded5nyRyPmy1FHgqwp3t4Gw2Biq2xjh4V8nLTJCXIY2ZDwvCwhVKh5YwP1X-6TLgrUsA0O1lGfZxoC29OJjW5j7sUQ5d-VDfay5Iw_aeTsBZIvy0zwua94QsBcg07?width=370&height=277&cropmode=none",
         ),
 SparePart(
-          stock: "1418874",
+          sap: "1418874",
           numPart: "H29233010191",
           description: "CASQUILLO H29233010191 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-04",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mjDFRB7unn9TO0DxTN32l2n3mV4Knr1n6Bj8yrkjdIiRbCW6Wvl7c4SYh-j7IBDJbPPkuRsXAZzSUb7RyyRzAXlBSnV9oWRbxl9NgNKuYV--GALRZHW-tJ9tigsf-Ix6OLderW_UIFK8AkPuso_-rI1BEqwzrYCbdXY5m3PArsKXxON_T5dk51kF0bFWrQWXo?width=335&height=251&cropmode=none",
         ),
 SparePart(
-          stock: "1419998",
+          sap: "1419998",
           numPart: "X45420002",
           description: "RETEN PROYECTOR X45420002 KHS.446 ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4ma-M6EP8VOVz2_aGMxPrgnVwG5O7WjPuuOdn6CdzXOwUua-x_64s3WLUWRh_D6wncvXlDAhPopn__CSPWAqkebvNufcuJlLiG-rarl8bHT3jHyWd8EyIU8K1eEw1covgdhVQPBjXToYG6gvvK259RzurPGSlUaHRSJO5etmh6Cj_cnhHa4dwku2h2zkRzRuAr?width=379&height=284&cropmode=none",
         ),
 SparePart(
-          stock: "1417900",
+          sap: "1417900",
           numPart: "301022023700",
           description: "RESORTE 301022023700 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-10",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mi12eztL6BTI21TpqYsFgqmoCDTCTnTZXDwfAKVvaJbzBlQ49n9NcXa9XHHKWmCOaYLxFtme2laBERsmVjEuMLLfAbMzhfOexOWhgY96g3Xc6z2byHsSmwb8w9llH1UPL-sVjYgFu2eK6ekmfll0ykSulgKvfYWU4kgesKu_axlRKurVI3hT9sv37q43xB4tK?width=353&height=265&cropmode=none",
         ),
 SparePart(
-          stock: "1420520",
+          sap: "1420520",
           numPart: "301024032140",
           description: "ANILLO RAN 301024032140 KHS ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-32",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m0NsSkes_A-xVCdOl1TVmqzd6g3ahHHdGfXHv5NhGlvqybL0zJIyZInq26y_I_K-IUwrUosVkrh1fhwhwIAteN7ERkuhNEznQEh_NnNJnUskCwcPuy6bPRd5vNydgAZStAz9Z1fR1jqz-O_XHuPXgnHaMpwS2jgNLDhDlhpUprxhJQjAGIIj555hEc7bAerBB?width=158&height=207&cropmode=none",
         ),
 SparePart(
-          stock: "1444120",
+          sap: "1444120",
           numPart: "H20205017551",
           description: "Caperuza de órgano elevador",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-26",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m1A6uQBcZFctRwMTnZ6ilnwp6W6xUcs9c9wwsE-XyfxmctejxnkHwZHacvKUhLmch9DX3jIcRzqT1b4-Ot476BZwafJMs0p6SXIIUlSZ0R9gTh6S8IG0ShC-wXO1slT_IcmnFOZ4WPDqgdIPH-NDLkG9ihxAKipH-jyjp3JkReNSMUxkAIMhMVVwilG1PfLB0?width=148&height=199&cropmode=none",
         ),
 SparePart(
-          stock: "1423102",
+          sap: "1423102",
           numPart: "MB6491",
           description: "Platillo porta botellas MB6491 ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST10-22",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m1FpobjjEpf56HR_J3gFYYfohk3mHIrtGNwbA1fBtPN6WSQH54e3gpI2bZ170SwEP00XdJP6gSCY0wEOoJzxKdonA7ml4XkPigVkC37pKTU2c0Mvb2cuLlhZ83JUOp0NobsgDd9N_j7_Zt5-iRuqg-dZhP-7zN3-V6xaypQpCkVAYBsYOUR8SCmDjWvLw7mjm?width=156&height=204&cropmode=none",
         ),
 SparePart(
-          stock: "1418502",
+          sap: "1418502",
           numPart: "H29205010512",
           description: "Junta H29205010512 ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-36",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mBPK8nLq6AWg9B0SZRo1P5qab-H3Nyk1eif19bzxWOP9oP2WMTnf6KRVKPF9wf_h3ny91gyW-IsNzq9zPF3n847BsSyZHzdZXe-T_nL9kQacEygQ97wMttNNyLYZ1h5BFhPTDzYnACEcL0By-_D46MwKLOZfhNk4HQ4dy58ws-CTaf3Gd06-hZ-DZJauQgo16?width=148&height=201&cropmode=none",
         ),
 SparePart(
-          stock: "1419526",
+          sap: "1419526",
           numPart: "H29205010122",
           description: "Piston H29205010122 KHS",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-17",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4myDwvGfDQhOuoJRiKJaHWBpG-pZEw37_mC6QFtKTRWnJaEJaQ3puUu1yZOMpt99-BsDeUG7PgejITuo6qCUA8QCcvIsQFEVEAJh_6AjnOqxwSK0oaYe3juFTb5beqiFxM9nPsFY78YvSDNVQzxdjatEAbY3VwHsNFCO-r7RrQ5wg8uW8a8X0EgrovMeOXtuPD?width=163&height=219&cropmode=none",
         ),
 SparePart(
-          stock: "1418993",
+          sap: "1418993",
           numPart: "H20205017541",
           description: "Rodo polea rodaje H20205017541 ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-36",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mVsag40x_60cROVMrTpjN-CA6M6YJogEvyLyGlkfNQZnxK7Yy4TPgJN0DtX6GJ54ya2cCkdFzgzdMZoaAEcdZ4oq54QJdx3CyvLD12vMP6qNxatmiYde7CFgRwk5RyozMT8CcvMd8IR84dFsnA4XyMf7Wp0gOWO0KKRyGbo0JaQ3lpKDyg-nnGX3HN0RJjDtJ?width=158&height=212&cropmode=none",
         ),
 SparePart(
-          stock: "1418800",
+          sap: "1418800",
           numPart: "25427",
           description: "Reten neoprene 25427 ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST14-25",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mfOVR82Fuf2j7YtCqoQXsBzqEHqAqf2MOLNTFQqvPnmgig7RvwoBfDSe6-menE3FC7n19Hchc2xutoP3afHDd-L4fGi7iT9Xv42EChftqVEvG5tRD0E4056iV3bHg4GrHn0my3VT8hfdjMiBTYjaWs8oKmMZUNQy5OZuNt7nkyudNt-D9aVYqe7wOlD-f3YSF?width=163&height=219&cropmode=none",
         ),
 SparePart(
-          stock: "1425187",
+          sap: "1425187",
           numPart: "6004.RS",
           description: "Rodamiento rígido una hilera ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST14-04",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mz2J14-K_QibEB6w0kzDpBL9MHVsoqKTnKgLHLx8TZfUNidWemjDNZT0m5dJ-ArfRaqlex0bDKQQHo24sXLm0NzeKpYcrSQwA2jTIY1CacP1Jut2so2xd3kWDel76eLdEl0w6DNNwhjxJmXOySPk3EaBsr7LqkYaQqOAT_cOo4AyRR8M1YWHIOAhgprFjnqSJ?width=158&height=206&cropmode=none",
         ),
 SparePart(
-          stock: "1421950",
+          sap: "1421950",
           numPart: "H29205010152",
           description: "Tubo N/P H29205010152 KHS ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-23",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mAZ-Ce-E-JJuAk_Wj4j2aztyt01K6yG--4NHGpzCB-HycWdxQCb6U98MZITBG8PsxwRLyZwkRDKGgHVJSASHr5PWqp6JMdjsKSIQHXa_2E2NZUdQThHFUkgXngl4L5WOp7S9-DWKV5vF2s9EY_xDovnB-ywePje_sZRF3gYhQUD3e5jnULZP_aKEuAXONdgMA?width=142&height=188&cropmode=none",
         ),
 SparePart(
-          stock: "1420014",
+          sap: "1420014",
           numPart: "H29205010211",
           description: "AMORTIGUADOR PISTONES H29205010211 KHS ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-23",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mEkzBaAQ0qzBkeiur6H7WW6zX_Dsr9sYZsRglUma_2m7meiiJxCSV-4JRtP-q9274yykbpBumL-N4iCurAv3vWVX1FTeDObQuV7uflCEcFOQJ11qJ2WvmqQgxaua5g8EiG1zeheKSBW_DdtLMOZ1J5cXkZCvbAZOp_sKv13K4J276bWeJZv0xCLPKh7l6-UU8?width=160&height=219&cropmode=none",
         ),
 SparePart(
-          stock: "1418011",
+          sap: "1418011",
           numPart: "H29205010132",
           description: "CASQUILLO GUIA 58881857/H29205010132 KHS ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST08-29",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m5wMd-rUFuwSyezkvZCvNmIzkumzAmlz9ylOu91uKbmUKlmWZH98yYJCzLIi0dDYfL8YLTWyA6LHRtFiA9I4DvDI7gjxL2bkPZmVIuMUT6zLoHxOOJGOYd6ywcnTMM4ack7Chwsu3LwiKb_AUhg8u3wdNOMS-eRNjtUke_WVkzKOWZhiOLF4DVx5jzQVqiv8w?width=161&height=215&cropmode=none",
         ),
 SparePart(
-          stock: "1424641",
+          sap: "1424641",
           numPart: "42MM.AC",
           description: "SEGURO INTERIOR. 42MM. AC. INOXIDABLE ",
           machineSerie: "EM VF 132/5 SV/0KK 47269",
           slotLocation: "3000 Refacc. Línea EST13-36",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mkb4W2JPB3RFVbIGD54LKvR7rNFalp2vyt1ZqSGUlrq17k75F3iEVDOMh_S3LiLjBtQnq6HmoYq86dOrRBhcwr62Fsp37TNvxg4dj5jTFe0hpQ_M3u1v8R8lMs0nkTOEV6px5gtZ99Vaep13bSFcQF7WuVcDqsxAvzP_EAC6E9Vxb2T1KcYb96u494priWnas?width=146&height=203&cropmode=none",
         ),
       ];
       case 6: return [
         //OVII
-        SparePart(
-          stock: "1418105",
+       SparePart(
+          sap: "1418105",
           numPart: "04204",
           description: "COPA D SUCC 04204 IND. DYNAMICS",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-42",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4miN_56vLN2NTi-5wROg0sU1xSvYlSwuyvXpah0_rSCpDbquB3JeUL4Darb-9GPeh1CqvoMdA3PHlT_jEumKdbsWF-t7fGx6ZFR_g42XMKsiyFQf1V3VfM-utaHolIDovm5Q2f3zJ3ODfZbAuuXqytOaOtCCrX2h1KOpwN79OZ9IigHrI_1DMVfgnQQgqgJmMG?width=239&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1419302",
+          sap: "1419302",
           numPart: "34859",
           description: "VIDRIO DIF CLARO 34859 IND. DYNAMICS",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-41",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mGUpVEzENihx9Cb3tY4k0JaICP5fc_IM0zjr6Cnp_08mrEEzkoe0nUyX8NAftKtlcfZJ8eG44sxFcmuAnNES9P8sH5kv3XwcHm-Qh317e4b22kGru5hU2mN4TPUdgJXzbPVo4C05kbfEhzuem3fFNuX5frThcPpAx9RImsOfQSr0EaFNTNowIy327SFaJgrBC?width=206&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1422900",
+          sap: "1422900",
           numPart: "46906",
           description: "KIT FILTRO DE VACIO 46906",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-53",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mZtlyXXHxnriGnDnyYn4rca0_jxtoZ6YS23OE30n-S6RWoK6Zlut_W4ycCB1UqQlFKIuMGDfHfvsaGuy0f6opzamv0FVPuXQBE-wCiPeOHOl5yoLSr3vTBnRIcf0wUu28pVPqoVkpL4d8fUBFzJBvzQRmBpp-v2MJLT5jCQ55Al5T-n2ty-yPywQtig-xMrtf?width=256&height=220&cropmode=none",
         ),
 SparePart(
-          stock: "1418175",
+          sap: "1418175",
           numPart: "47140",
           description: "CORREA LISA RET NARAN 47140 IND.DYNAMICS",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-51",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mSDc80j03wkFthohKD0L_AU5o3lBlpQ5atuqOxz06WbaIpd7PsGcm3kU3o6bwjt6H5Up5a7WTumg1Z9JceKbitpUdDPpkGNb9nBFrMOpAzIEaIHR2q6Gbub4NQea3SXWZMhcDd9zE_376qNUxYsKfvgUWtSZB_gsXKklKIOwUNEEThMbBcVslqpFj0DieLbPy?width=256&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1418176",
+          sap: "1418176",
           numPart: "47140",
           description: "CORREA LISA RET VERDE 31853 IND.DYNAMICS",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-51",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mbr86jp9_sKxtc0PhSGUNaoyLBulpc_okyZm7GPQ5IQ982uHDInF1ZThQVgVb_3tfbw9RlxtY8RemS7TJvdBfgDKKVH8e61Ai3ps5SZ3eLCiQV4bL_kWp0Z50fa_COKa0v0PR6JPdW786gT3it4zdPzK7FOvyMzHc-ZNFW_uYXxb1ldj_9xXCOYxXkzQAvyy1?width=256&height=244&cropmode=none",
         ),
 SparePart(
-          stock: "1349111",
+          sap: "1349111",
           numPart: "33775",
           description: "EMPAQUETADURA PARA DOMO VIDRIO 33775 FI",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-53",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4moe8WVwArnKTs5bX-E-IU1LcJbtH1ZYIyIaf2_UCnrlzRkhpWOUEceYJU9M1gWLZbDWR2auWmzxHDvxYSg15ADX8COr6N-ZTEjteAUgTzodwZ-rh9BcTg5emap6xZzFLhytveDM-o0ySLWq2U_b7INH-BGs8Se0aO8Iu8DuyMrcugWZQUSJ2F9mIGQbJLjueg?width=216&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1425624",
+          sap: "1425624",
           numPart: "10238",
           description: "LENTE DE VIDRIO CONVEXO # 10238 P/INSP.",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-54",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m2gBTwwMgaFmiL5zC2AuINGiPwrkEwd53HgGhrLtxRa4VBPCyiekbiftuq94CriXF6tCyu9JGAXr2OjUjY11bMTPW-eomlOk2Xt_IqW2MygkNrbrLWwYSO6IIL6KekwSKxShpz4t9Y9NE2PZcEtb82KKkaV8RyUQ80BntbZEtTzkj14uH1DwgWv2WE7qwHEl8?width=256&height=247&cropmode=none",
         ),
 SparePart(
-          stock: "1417907",
+          sap: "1417907",
           numPart: "21664",
           description: "DETECTOR DE ALTURA. N/P 21664",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-51",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mya6j2-NjIAEPXvl6P--TQXZKIq8Yd8nEwIJIvNLHJ6WOr210h04MjEqyie5McA_xRei4zwW88D76F3302uHx1AL78eHDU4hack1xbwWL_XDIyjyO_o5zHfykJaq2cYw4gVWKJgXoJbkYLsBpA9339lEbpzkpe_H617XnWQR_ax8B1Ie4_qxSqgvKGEGMTqr5?width=225&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1420611",
+          sap: "1420611",
           numPart: "27591",
           description: "PLATO DE VALVULA 27591 IND. DYNAMICS",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-54",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mE8_IL5Y8dupOcntfHPfHkyOE9e_KutnMepLNXASX8G2F0X84rr15T51G2eD6OIssOBH-ZJOnu2JHG-JaUCMj1T8qvIIeGfkA5sSTxxT7n9B0_hG7AXikPRZjH_uDoxDVt1FzMVSDSiJ1512K3aOTelndaa39F7Y8kjvKxrZg6aI1drQSLXjoxffYh75qeRdd?width=220&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1419303",
+          sap: "1419303",
           numPart: "31578",
           description: "CHUMACERA EJE DE ENCODER 31578.",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-50",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mPHJ-LEL7qWyYObtmwzPSLN3AYNIS4Y8Tc7tmm1l0IMYfCldPGVV9DcRfAuWVn8rt9ZfZnjWTMqJASFx9TUnslGiZtl8Zzg6mM1ioQmrFTOlFvjwnat26KQQjTX2FYfpMbokhXIcceE4XGf7VJ1j8BbJl2BDja5pReUdABtJoGaiZ3cQECERhHh6y5D43XEIX?width=202&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1448444",
+          sap: "1448444",
           numPart: "15064",
           description: "RACORD MACHO DE BRONCE 15064.",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-54",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mw5RV-2-6kHTPg8DzBSAzkb6JPh9LLgSwv9tgasL2raLytR9wIlgETTh3qejFrZ6lcNpESotVbHVRSwU0GV2scJ5P8P7bFgvx7i6yCDA11REh2Z7t7tT1b0cnnEdogxA6li82D1DNUApWyzLVf_s56_u1qR3UIOBpuhmYV-6wH3rOFoKDtwx0F-npw_Gn1dmq?width=228&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1448442",
+          sap: "1448442",
           numPart: "25727",
           description: "TUERCA MARIPOSA PN25727.",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-54",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mcMbUAtF2ivQU3e2yBkSeZ1QxDptZGgjByZh80YNZNvQJ02CZ9Y0cR1AP5N2B7g_jgtI3hiUxW3iRVzYS9NHOuINx9gpfzVvUgvS7I9irqSIZ5eG8hD05WUFvDIt9NiTAlNGOPt4yiyE095X7368dnL6ym9Eqy0_RDa_VTpuwpRT_ejkTpuzYN3bCuXixCvEJ?width=317&height=364&cropmode=none",
         ),
 SparePart(
-          stock: "1440094",
+          sap: "1440094",
           numPart: "2320898",
           description: "FUENTE 24 VDC 2320898 PHOENIX CONTACT.",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-55",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mAdWV4xU9qbMcV9D149c4EjxGBEoCorUBp6HpShxs9qfP7Yz8_d2Tdah_eSBoTYD8MceGGJY_pc5-L4GiJnxYqSDhPWFAF9gDnYO3cbzyo60tJbTqWXzUQwPWo_ZH9II6IcGP-PVMaBeiK4ZDm7Wz8MiwsvERQ_dyWxAhbmVvrQwoAb6XLdbB2NsUNySGjum_?width=238&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1423171",
+          sap: "1423171",
           numPart: "36254",
           description: "KIT DE REPARACION MANGUERA VACÍO 36254",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-53",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mzmbfyf9sAek-R3dtzP_xlkdCHxBvRtwh0VuU5ZD8NPnwTMxyNBU-tPa9n4E5VzPYle4yHIHJsLDfa7nDOOBouLf1Na12tvYlX8Co0khNDZybenuBCk43wp3oPI-0jge6V4QcJ0q1ykDshFWmGo0_v8Bk9p_JvB9JqzjvdfzhwKxSA4xf4MhvOuP0jhbRACnm?width=235&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1421701",
+          sap: "1421701",
           numPart: "40685",
           description: "ACRILICO PROT VENTAN 40685 IND. DYNAMICS",
           machineSerie: "82042R",
           slotLocation: "3000 Refacc. Línea EST10-52",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4meKF3h8HPZIlEms60mqX1JkXDI7N06yLTGTAnuK7djZ8JmdRSoLL0mR2mLjH_M0nqf0ly4licD5P4apr5DnUcLQeIp9otsVYDhLBAe37FyxUDKPEnITpmhH0V-Xbky-m4GsTOSe3kQXanTFHJcDrnHIypo2Inf7u5rgzPRC8Xl41iXT3tbrAKycJt0KecNt6M?width=229&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1417888",
+          sap: "1417888",
           numPart: "26498",
           description: "LISTON D DESGAS 26498 IND.DYNAMICS",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-47",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mzmbfyf9sAek-R3dtzP_xlkdCHxBvRtwh0VuU5ZD8NPnwTMxyNBU-tPa9n4E5VzPYle4yHIHJsLDfa7nDOOBouLf1Na12tvYlX8Co0khNDZybenuBCk43wp3oPI-0jge6V4QcJ0q1ykDshFWmGo0_v8Bk9p_JvB9JqzjvdfzhwKxSA4xf4MhvOuP0jhbRACnm?width=235&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1419718",
+          sap: "1419718",
           numPart: "38013",
           description: "GUIA SUP 38013 ALTA BEVERAGE SYSTEMS",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-48",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mAucs3q_HYO5NR6nMaS0yrWDRjY9_pEXi1qi5cSGFexmDZH5xDQRmjwjfG28TdRNZvqnSx5DYPcZ141_CndOkCanjZhXTUPk1EcQSi305CMQFjtNc3Jr-XTB6tHykzMd0CIlg6JWFmjHyaxCpshafgakcDN8MyqiFs4ZunPr5xu3XwEcvBXxxUzH0LAEm_nkc?width=254&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1432180",
+          sap: "1432180",
           numPart: "44776",
           description: "PLACA MUERTA 44776",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-47",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mcwgt029VRhn7UfgZ0ifeffoNRlwsKHmo9TlrA9Lwu2dp-0icRTe-V02HfzHbrbT1mDMJL0L2GFSNjGxb_f9KkvwDjP1EVzKf-1b8AFBrQ6X9VNDORYpVfceCwxma5QIwj6VKPmclOVlKhvrhdQsieyHZkQAUhzXYAGXBuzJTvFvyfnIaJxREuBk5dhzOgib_?width=192&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1445672",
+          sap: "1445672",
           numPart: "44756",
           description: "VENTANA PROTECCIÓN BASE 44756",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-50",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?w=2000",
         ),
 SparePart(
-          stock: "1445672",
-          numPart: "26498",
-          description: "",
-          machineSerie: "82042R",
-          slotLocation: "3000 Refacc. Línea EST10-47",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1444987",
+          sap: "1444987",
           numPart: "48019",
           description: "VENTANA PROTECCIÓN 48019 VER 1397864",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-50",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m4MXL3Hdu4to03pahhN53jMQcVvM3nAjhj92aEfB2F2cVETyQsHsgDtL0BeS2Kw-B7pz2JzrqdqoMaXPM7Xo2XjMhuOciyp4SR2sSexyHsx-eNtiK40elaBRifW7MZujz40khIsAPmib2InGq2LDu8_vAT10K4vGMrLa-VtnewgcKFyea-wJ5tk5DOFPj2ZoM?width=192&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1421631",
+          sap: "1421631",
           numPart: "41713",
           description: "KIT FILTR CINCO MICR 41713 A. BEVERAGE.",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST10-54",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mR_ZR7gdI-IaSVmiAez_Gmi4kIQqbX9gBwEWsbmET0WcZgz7qHfgvwHB68u01-3YIgR2c8AYCyrRTYzgZ-GCoEYeQIdbu9E9JhblsCuOElELqMz60hf3-uE_wNmpT8519dOhendWw_k3AqmVqgM84PMCIKoKiXglqB8cjnGQSfkJxNOTgAS3wchDkN2FfqJWe?width=205&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1413098",
+          sap: "1413098",
           numPart: "47811",
           description: "PANEL DE LED 47811.",
-          machineSerie: "82042R",
+          machineSerie: "82056L",
           slotLocation: "3000 Refacc. Línea EST24-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mS9ltveq2nIzIgip4UlLOc_cBBmMOUzr71okan1rLcT-GbQLsXtcTeCjJtuHAtgBZ6MrBKOa_N4XuKFMZPjL5KdHFvdqZzCGHdsYsAnW7Ou6pwGcgSgDUfZDfYRHHrowBu8c7UgMnKO3eXbg-UcMC3pI02sOeQbhuUAg3yLewVjcTv3HWjR_l9do_Cfj9PFzQ?width=256&height=224&cropmode=none",
         ),
       ]; break;
     }

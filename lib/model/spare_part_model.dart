@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_typing_uninitialized_variables
  
 class SparePart {
-   String stock;
+   String sap;
    String numPart;
    String description;
    String machineSerie;
@@ -12,7 +12,7 @@ class SparePart {
 
  
    SparePart({
-     this.stock,
+     this.sap,
      this.numPart,
      this.description,
      this.machineSerie,
@@ -27,7 +27,7 @@ class SparePart {
   factory SparePart.fromJson(Map<String, dynamic> json) {
     // ignore: unnecessary_new
     return SparePart(
-      stock: json['stock'],
+      sap: json['stock'],
       numPart: json['num_part'],
       description : json['description'],
       machineSerie:  json['machine_serie'],

@@ -1,967 +1,590 @@
-import '../helpers/images.dart';
+// ignore_for_file: missing_return
 import '../model/spare_part_model.dart';
 
 class Line3Utils {
   static List<SparePart> getMockedLine3(int index){
-    int i = 0;
+ 
     switch(index) {
       //Depaletizadora
       case 0: return [
         SparePart(
-          stock: "1432531",
+          sap: "1432531",
           numPart: "S/N° PARTE",
           description: "MANOMETRO DE 2-1/2''0-3000PSI/BAR 1/4",
           machineSerie: "DEPALETIZADORA",
           slotLocation: "2000 Almacen General EST05-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mvmUjVMFmy-lTMozlmCKCa_bWmDx2wpscS6WHaivF2OsPRWOozcs8u8axyvOvdyPDY8N2AfmVIsOHMX7K-0vra57iMDULGT7iCaNfZ9ybSFqbFYlodf9XWWwEsK-y_E6oND6LJSU6tX_y1idfvocF3L29gKKgfajiAuh8ew7r1y7YNNye6H4CGboLD-1CtRdy?width=200&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1059108",
+          sap: "1059108",
           numPart: "V10-1P-4P-1A20",
           description: "BOMBA HIDRAULICA V10-1P-4P-1A20",
           machineSerie: "DEPALETIZADORA",
           slotLocation: "(NO SE ENCUENTRA EN ALMACÉN)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4myeMZqFpqRVdsG677M01mj3qOdMfIKG-hYST-Dzc2azdzSWJXDEeJOXprVVGB9VXoWhwSwzq9yZyYsu9vJsSnRujTvik8WymY2AyB7lK8VeYc0MLNoeFYejWjlCe7Kwk9ynQqSXdWz2ZMNZyCrN-gTl0GfyU-h5mwUKVDBB-pOI7u6ViJVlowBHS7EFUDBjda?width=256&height=192&cropmode=none",
         ),
 SparePart(
-          stock: "1434761",
+          sap: "1434761",
           numPart: "SF-6520",
           description: "FILTRO DE ACEITE STAUFF SF-6520",
           machineSerie: "DEPALETIZADORA",
           slotLocation: "2000 Almacen General EST05-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4msVehmAVSswL1gdhKt6gBT1l_OdOfzQvqwvjUekNlgPh6n9mdG23wml6iCy4oWI4Lyk4LDbRFPuIrMCXBSozdjl_DFZU823Yo6cOgcsiB-KLi9JLtCqSEavMIQxSibUaTNiX34VVdtHIvX8gZEMkHIajt9p_4j2YHO7M1r4tkQ2vlsNffYF3X6bTMDj7ruxrZ?width=256&height=228&cropmode=none",
         ),
 SparePart(
-          stock: "1482447",
+          sap: "1482447",
           numPart: "43650",
           description: "CONECTOR DIN 43650 GRAINGER IND.",
           machineSerie: "DEPALETIZADORA",
           slotLocation: "(NO SE ENCUENTRA EN ALMACÉN )",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mkUkrZs1nrDN7NkJESQ-p-xkRLh8xUCdq_6k117L7GXw38bjDddtn2sGKUmLHSrR4G4QUjWdcWFhXhTa15odQBx5YbFBXvTEaOIJPNYJL3aqLTuUopr5qRKsF8MC1JDFvO8eUD08hii7MCU2XvuVrHzZ5jUEeRwEUv8YHsV0qTVw7ksA6cS7Jn6A9wqbz0H02?width=256&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1421312",
+          sap: "1421312",
           numPart: "3SE5112-0CH01",
           description: "MICROSWITCH DE CARRERA 3SE5112-0CH01",
           machineSerie: "DEPALETIZADORA",
           slotLocation: "3000 Refacc. Línea EST11-69",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m-gVrwlm8Pve-YXzDGa_2nmkgjjqUo9Y_tjlLQF3qXFi-PfibUk1mpc7dTmywfmUAn62w-_cmy3XIaJxc47lYszZEfMHLBvQpTZsVurrd_eMKeaeZI3Lv4NDgEH_ofW9QW5VDeBImzRmyYvPsnbCnpmKs_ykChpmGp9ljEvpCBOFQsc4DxbC8ock5MTMJvThC?width=256&height=192&cropmode=none",
         ),
 SparePart(
-          stock: "1424304",
+          sap: "1424304",
           numPart: "S/N° PARTE",
           description: "SENSOR INDUCTIVO 2-HILOS AC E2E2X5MY1US",
           machineSerie: "DEPALETIZADORA",
           slotLocation: "2000 Almacen General EST05-31",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mplzIi1bKPIBwyn8FlXO3CrK6gpUZuPVxdDgOztS0xRiOD7mzRrTS1Prd3h-EGiLnDA6wBSQopsaeW7-zbqyOO7ZmouGaraHgf-o2Igpm87Jxc8vMQK22Uy8n1760_xYY2tRoL--4PlDB0Sdxf4yMDPqMwJJJKVntEzDIZEABHCYbZ5XbqETprzoeB5xcLII3?width=256&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1423533",
+          sap: "1423533",
           numPart: "S/N° PARTE",
           description: "SENSOR INDUCTIVO M12 24VDC IFC207 PNP NO",
           machineSerie: "DEPALETIZADORA",
           slotLocation: "3000 Refacc. Línea EST12-38",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m9QW-u44f6C3SFyBkyF77Y0Ti1jYrBQPuCYqV6v1eq-fYS-rPk0gqex8i8q2_EWGYz996v2B3H9bsOmqmVVNgOHzizhPHCYadumC1IKZSrgijj9I2D8KTNUk47goZRQWyqvYRiRgTkCAP_iSpgc57vDRo0_gG55cDOP7nAaMtn60NeWmKxuf5ytzlQxs8HY4r?width=256&height=256&cropmode=none",
         ),
       ]; break;
       //Formadora de paquetes
       case 1: return [
         SparePart(
-          stock: "1380630",
+          sap: "1380630",
           numPart: "31RUZ0041",
           description: "RODILLO A=65 31RUZ0041",
           machineSerie: "FORMADORA DE PAQUETES L3",
           slotLocation: "3000 Refacc. Línea EST30-51",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mvew178XBTGUR_occ87V5uzv3jcrTixYQlq1Xbb_Q1qQutzgKLmOSjfGt132Gvfelt9mrUYLuO-ja35G68dT3S0PXKdf5KnGeX2hZ6PY7orOTNnjjFky0lk7sHM8bXgdnytmdVlAiYd6jctaqyAP73tvzCZeGytIHul5ATejL6105_inKS4UV2DieVkiwN2Pu?width=115&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1448518",
+          sap: "1448518",
           numPart: "31CN860660",
           description: "CORREA DENTADA L=660 31CN860660",
           machineSerie: "FORMADORA DE PAQUETES L3",
           slotLocation: "3000 Refacc. Línea EST30-46 (NO ENCONTRADO EN ALMACEN)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mHF6mALDzFeGY6qX_-eszUsfFxW_fG1E8vI8b6k7__tihgkoB9W0ZKU5H8wBfDxYBtAmn9FsdW0DXbh7h8mRUR0Khu3oHSNmk0GDWcU-M_tqqBzwOEY9oK_GQ9fGAj_ooqVC1jIzPxUScFfzJxVHXBORzT7W3qk4499ivVY0C_pui7zaqeZiPl-aFjJSBSLEX?width=256&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1375436",
+          sap: "1375436",
           numPart: "31CN860530",
           description: "CORREA DENTADA L=530 31CN860530",
           machineSerie: "FORMADORA DE PAQUETES L3",
           slotLocation: "3000 Refacc. Línea EST30-46",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mwjTx7gGRnUbl8K9qiE06ALes2RRbm2Ai1dzW5y9-g7JBMlAKnvpDukARkCYP9DM-QSsZ84yCKemnb1u5mI-zLetcD4B12hoWXdzbb5JoZg7r43iOQx97tumKQucWPxEuSu7IY3ZcIh0-J7dbH-koViuT5JVsThI68TlwslVy93FFN72wJrE26cix61AgK9ko?width=115&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1364605",
+          sap: "1364605",
           numPart: "32ASZ0004",
           description: "RESISTENZA PER TAGLIO MICRONASTRO NICR RESISTENCIA.",
           machineSerie: "FORMADORA DE PAQUETES L3",
           slotLocation: "3000 Refacc. Línea EST30-55",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mSuUpq2tfZvJQmfC1T0-5JW-HlODPt-s86CT_QyCm4OginucFof0t_WM5XbwtmY7Ipub8IebL6DGabBe8bMnGYH_vs4LfrQHRWDxqGgZ6Q8eU7-dJJvU5RuIVKYiJn1KOOFt-UkcqBJRl9-CADuSBtM29dpSR2euvrLkED2rN6p1h8ilHE2uTy6m8IzWQeYtk?width=144&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1380630",
+          sap: "1380630",
           numPart: "31RUZ0041",
           description: "RESISTENZA ELETTRICA A M MULTIPLA STIRAT RESISTENCIA ELÉCTRICA",
           machineSerie: "FORMADORA DE PAQUETES L3",
           slotLocation: "3000 Refacc. Línea EST30-50",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mtMAKIq8FZ3ffm2ALhyFi8oR0Tlog-0RMHy812ux7gXc4aUhJ1IHRnDm4caVFN5I09ypDDhR5lcbfcdb0VP9xejKZOG-9OBKSPpjz-LHMfadU7Ys8zpR8xmtuc1dsNMxouZmfQmq9nLLD1wwSO5R_Q312ChS1dFNyqtQhNYq7yDppKj7Z0flp2Z3qzuaoC5aS?width=256&height=115&cropmode=none",
         ),
 SparePart(
-          stock: "1362341",
+          sap: "1362341",
           numPart: "3.501031.02",
           description: "JGO BANDAS SUBIDA PEL 3.501031.02 OCME",
           machineSerie: "FORMADORA DE PAQUETES L3",
           slotLocation: "3000 Refacc. Línea EST30-44",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m4pa7b4UbihTV1KxyzdPKYeqPrYN8MdhYI4XrXj8pL19xfVTudNJlaSZbciYMU3essIzrgkjQHn0lOSDidIGr40MrsbhIt4AY1KCmFZAo-QRMCvYfMWmPZ__20VxlqS6o3lzEVVL33c-WvIJ8vrb3gvSsguZUC1Dgx5XqGlVWmADoepdCE9cARrP_Swyk9yn0?width=256&height=115&cropmode=none",
         ),
 SparePart(
-          stock: "1421431",
+          sap: "1421431",
           numPart: "32FT/10180442",
           description: "FOTOCELLULA KT5W-2P1116 COD.1018044LETTO",
           machineSerie: "FORMADORA DE PAQUETES L3",
           slotLocation: "3000 Refacc. Línea EST30-46",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m5mayz2hQ3gdJ4R0n4HKM5VxWyp2QfZ8vP35awaKJxr9qu4N0jnvvJ6CHkQYpU8et02w9bCLTpSbyrHeSaeqDRoMMnIkefEHJ5v-Vk4z_Q1Bp29p2WHE-bjFsYtgWUOt91NmAo8YoXj-YTV5ddYpFlRqVdG3HP9uQc_qeW2KRx1-rmbVpaEYNiutY76SC55ud?width=239&height=300&cropmode=none",
         ),
 SparePart(
-          stock: "1362329",
+          sap: "1362329",
           numPart: "3.961462.02",
           description: "CUCHILLA CORTE PELICULA 3.961462.02 OCME",
           machineSerie: "FORMADORA DE PAQUETES L3",
           slotLocation: "3000 Refacc. Línea EST30-45",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m8ljFD9WsdQYAtjaWrI-9gAPE0sB1uB26xRKyryVR7gzNvfDsgp1kCdXTYgiSllT4LMaFfuGVTDAMAhlN6UlVAMUZAf0RzG9RfzwAaFGyRc_8Xd2O5g_ynQkZkn6rebdDRmOpmpzwpRgm4kDeF4zqr5Kh-0Afuyt45p9V8z-gItQvfHGu-DmUUw6g77Rq-6kk?width=256&height=115&cropmode=none",
         ),
 SparePart(
-          stock: "1469824",
+          sap: "1469824",
           numPart: "32FTZ01572",
           description: "1056384 - FOTOCELLULA REFLEX CON SOPPRES",
           machineSerie: "FORMADORA DE PAQUETES L3",
           slotLocation: "3000 Refacc. Línea EST30-46",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mLAdGKUQkSLcf_F0U6Ks04i59XVKoZL-pjHU45uLmt2807QwDOgbjCBW1i4_Ye8K0cUuI30v1OAV5beYkgYB9ivhorT-x_k0KP7_MaY-SKgeTLp1s4eBVHrdtm1i8FEaaKU5f47LZlg_SYAZ1aqSoZyNqui5pgYmqPocRsbiACa8yJ3589YXl73kpojJ0yFQl?width=256&height=115&cropmode=none",
         ),
       ]; break;
       case 2: return [
         //Llenadora
         SparePart(
-          stock: "1418163",
-          numPart: "H20433022541",
-          description: "COJINETE DE DESLIZAM H20433022541 KHS",
+          sap: "1418508",
+          numPart: "301022023960",
+          description: "RESORTE DE COMPRESION",
           machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-05",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          slotLocation: "3000 Refacc. Línea EST10-24",
+          image: "https://bl6pap003files.storage.live.com/y4m5n_Q__ZgV0o4zb7MTd2OtkPX-5nBEiU3EwpVYXjUfAtZV9pkaDx1ClbcOZBqqjYwWQoxQnPww-b34Qo2A9k0egSqUGj02XdtQZBcU_Xp8oUU8Vw2sfiurmbT_gq0R9c2NlfU_9OVaTlx_SkQnbfu3S0nQEHd5a3F2dY6NV4uTewrr4RrW58kyk2J5J9IdSPF?width=273&height=174&cropmode=none",
         ),
 SparePart(
-          stock: "1418164",
-          numPart: "3.0102E+11",
-          description: "ANILLO RAN 301024039660 KHS",
+          sap: "1418356",
+          numPart: "H23505010141",
+          description: "DISCO DE FRENO",
           machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1422191",
-          numPart: "X05316624L",
-          description: "ANILLO DE JUNTA X05216624L",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-03",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1422532",
-          numPart: "3.011E+11",
-          description: "RODAMIENTO RIGIDO DE BOLAS 301104200150",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-10",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1421851",
-          numPart: "3.0102E+11",
-          description: "ANILLO DE SEGURIDAD 301021211600",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1444421",
-          numPart: "",
-          description: "MARIPOSA #H20433010364 P/LLEN.DELTA",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-14",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418345",
-          numPart: "H20233076682",
-          description: "HORQUILLA PARA RODILLO H20233076682",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-10",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418346",
-          numPart: "H20233076662",
-          description: "HORQUILLA DE TULIPA H20233076662",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-09",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418347",
-          numPart: "H20233076733",
-          description: "ARTICULACION H20233076733 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418348",
-          numPart: "3.011E+11",
-          description: "CASQUILLO SECO 301104820300 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-04",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418349",
-          numPart: "H20233063571",
-          description: "PLATILLO D RESOR H20233063571 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-13",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1419033",
-          numPart: "H20533021402",
-          description: "TUL H20533021402 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1419033",
-          numPart: "H20433015702",
-          description: "RESORTE H20433015702 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-15",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418354",
-          numPart: "3.0102E+11",
-          description: "DISCO 301021220120 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-18",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418112",
-          numPart: "3.0102E+11",
-          description: "JUNTA ANULAR 301024011070 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418113",
-          numPart: "3.0102E+11",
-          description: "ANILLO RAN 301024039450 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1424603",
-          numPart: "H20533022353",
-          description: "GOMA IMPERMEABILIZADORA H20533022353 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-08",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418116",
-          numPart: "H20233059145",
-          description: "CASQUILLO H20233059145 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-05",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418117",
-          numPart: "H20533021561",
-          description: "ANILLO GUIA H20533021561",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418357",
-          numPart: "H23504010111",
-          description: "ANILLO INTERM H23504010111 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1419026",
-          numPart: "3.0102E+11",
-          description: "ANILLO DE SEGURIDAD 301021213360 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST13-36",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1419087",
-          numPart: "H20533024531",
-          description: "CARCASA H20533024531 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418457",
-          numPart: "H20233076701",
-          description: "",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-14",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418517",
-          numPart: "3.0102E+11",
-          description: "",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST13-41",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
- SparePart(
-          stock: "1418950",
-          numPart: "H20233059201",
-          description: "RESORTE H20233059201 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-15",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418951",
-          numPart: "3.0102E+11",
-          description: "ANILLO D SEG 301021213470 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST13-33",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418954",
-          numPart: "H20233059261",
-          description: "JUNTA H20233059261 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-10",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418955",
-          numPart: "H20233061473",
-          description: "MUELLE D COMPR H20233061473 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-15",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418956",
-          numPart: "3.0102E+11",
-          description: "JUNTA ANULAR 301024012210 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418957",
-          numPart: "H20533021435",
-          description: "TUBO GUIA H20533021435 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-20",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418377",
-          numPart: "3.0102E+10",
-          description: "JUNTA ANULAR 301024012080 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418959",
-          numPart: "3.0103E+11",
-          description: "JUNTA ANULAR 301026012490 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418960",
-          numPart: "3.0102E+11",
-          description: "JUNTA ANULAR 301024012970 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418961",
-          numPart: "3.0102E+11",
-          description: "JUNTA ANULAR 301024012030 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418991",
-          numPart: "3.0102E+11",
-          description: "JUNTA ANULAR 301024011940 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1419027",
-          numPart: "H20533012851",
-          description: "CARCASA H20533012851 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-04",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1419030",
-          numPart: "H20233035011",
-          description: "JUNTA ANULAR H20233035011 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1419441",
-          numPart: "3.0102E+11",
-          description: "RESORTE A/MUELLE COMPR 301022020980 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-11",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1444358",
-          numPart: "3.0103E+11",
-          description: "JUNTA ANULAR 301026012140 KHS.424",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1419031",
-          numPart: "3.0102E+11",
-          description: "ANILLO RAN 301024039850 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          slotLocation: "3000 Refacc. Línea EST10-06",
+          image: "https://bl6pap003files.storage.live.com/y4mNc4a2EmWVJNmzlB408zdZnBNSnQtUaQak-Fgd-Q66NQRYf-NhfXmY9RpSMqP1xxxznvs-WfwhU7awzZvp-QT5lmKZs5jhfzMdTpdPCAmTgcymTEgud6krKldaUO90lXVXNet9YmMXXlUriSxQpKDdbxMaMgq5k3hgNtUoFv00YOlk3Ga08dn3RU8i9adDgOQ?width=273&height=153&cropmode=none",
         ),
         SparePart(
-          stock: "1418410",
-          numPart: "H20433010323",
-          description: "PALANCA D PRES H20433010323 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-13",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418376",
-          numPart: "H20233021161",
-          description: "ARO D PRES H20233021161 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418377",
-          numPart: "3.0102E+11",
-          description: "JUNTA ANULAR 301024012080 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418378",
-          numPart: "X05224268",
-          description: "JUNTA ANULAR X05224268 KHS",
+          sap: "1418959",
+          numPart: "301026012490",
+          description: "JUNTA ANULAR ",
           machineSerie: "LLENADORA L3",
           slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mkxOagkZRd4buCliKZbtmiVSYTCdz8BdVXtd1qeMXs68BWs2uKKhLtG5pWA1ecWGa67DCUE0AhtLX3KVonC5iesBgYGfkz4gxnOIX1ZnovJBu8TtVe6iW3FAgR9FpJprDHXV3Dpqx3wMgCSkoLHkPY4jAnNb6-Dc4YTUmswNQiw0AB8v_ymPC0YAVEKINn5rn?width=220&height=206&cropmode=none",
         ),
-SparePart(
-          stock: "1419087",
-          numPart: "H20533024531",
-          description: "CARCASA H20533024531 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418379",
-          numPart: "H20233041173",
-          description: "CASQUILLO H20233041173 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418356",
-          numPart: "H23505010141",
-          description: "DISCO D FRENO H23505010141 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418508",
-          numPart: "3.0102E+11",
-          description: "RESORTE 301022023960 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-24",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1444421",
-          numPart: "H20433010364",
-          description: "MARIPOSA #H20433010364 P/LLEN.DELTA",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418411",
-          numPart: "3.0102E+11",
-          description: "CORREA FORZAM 301024190050 VER 1013063",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-08",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1419230",
-          numPart: "H20433011181",
-          description: "DISCO H20433011181 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418410",
-          numPart: "H20433010323",
-          description: "PALANCA D PRES H20433010323 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-13",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418376",
-          numPart: "H20233021161",
-          description: "ARO D PRES H20233021161 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418377",
-          numPart: "3.0102E+11",
-          description: "JUNTA ANULAR 301024012080 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418378",
-          numPart: "X05224268",
-          description: "JUNTA ANULAR X05224268 KHS",
+        SparePart(
+          sap: "1418960",
+          numPart: "301024012970",
+          description: "JUNTA ANULAR ",
           machineSerie: "LLENADORA L3",
           slotLocation: "3000 Refacc. Línea EST12-01",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m5KmCvcYThtTMm0YhYxPd-ivafCns3KAIfcYciYkyJylJo6hhMzhP3m_dIX8NW-la_cfs8nGqsw2BxJ9I7hDkZvfTticEvhEFhIY9ahfTBB7qrNxpyv5wFW_6_-ETfbLfipj9SUSJMkj84daMMD3wylhMtsIpgNwxvRJwXg8hC54r70TcAOfK6efpllpEMmcM?width=207&height=197&cropmode=none",
         ),
-SparePart(
-          stock: "1419087",
-          numPart: "H20533024531",
-          description: "CARCASA H20533024531 KHS",
+        SparePart(
+          sap: "1418961",
+          numPart: "301024012030",
+          description: "JUNTA ANULAR ",
           machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          slotLocation: "3000 Refacc. Línea EST12-01",
+          image: "https://bl6pap003files.storage.live.com/y4mOkEXTsvGJ8eL0iRZ5QWq4GxsV20J0u2Nsr_ExgwPIIPxhETnqUiMjEsm2B2wQsJE0DbfV-y_vKwyneRtB-xJEQo2I3Gpuj8Wf0odhlRzOPHnqTGCGqPQI4zZvulsDXNRXCRC0MGdk4fGU3C_P9IrmZybK2gB9KQdb4ZoBW6f4IL6gVVeKrVrrVR6nYfZaaLz?width=252&height=194&cropmode=none",
         ),
-SparePart(
-          stock: "1418379",
-          numPart: "H20233041173",
-          description: "CASQUILLO H20233041173 KHS",
+        SparePart(
+          sap: "1419029",
+          numPart: "H20433013222",
+          description: "BULON DE APRETE",
           machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST12-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          slotLocation: "3000 Refacc. Línea EST12-03",
+          image: "https://bl6pap003files.storage.live.com/y4macPWMELeosqwEc7SN25Ean6exOIa8ntrNgGVCWH9GxeEISs5_uQlsYF99bCR7gS0FJMpq5hGVn9qsWaPY4aafVZERVaanGnowHvKvKQ-VlScn-HZWhNsq_UVuVDZpkRsNES8rzBcScoktRHFr5nmTVgzSOBlQfh-ddRlyKnESOwpODYpEDdHHyCzbV-uKyvH?width=161&height=197&cropmode=none",
         ),
-SparePart(
-          stock: "1418356",
-          numPart: "H23505010141",
-          description: "DISCO D FRENO H23505010141 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1418508",
-          numPart: "3.0102E+11",
-          description: "RESORTE 301022023960 KHS",
-          machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-24",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
-        ),
-SparePart(
-          stock: "1444421",
-          numPart: "H20433010364",
-          description: "MARIPOSA #H20433010364 P/LLEN.DELTA",
+        SparePart(
+          sap: "1419030",
+          numPart: "H20233035011",
+          description: "ANILLO OBTURADOR",
           machineSerie: "LLENADORA L3",
           slotLocation: "3000 Refacc. Línea EST12-02",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m1fZR3iCtl8ijni0ua-PBWwxxm4e902pdrUo2HBCVf-gTZP84194RkYEoXnojaJi9P5FYLvmren_dDQIrXlUgEfiww24fbrR1wLLgj4gFv74jvnJq44ffp2lkbTPJwpHlURU3sodeABGGTCH5xAMl257cvak7_DfaVLA8NM9-5S-tInC8ifsc1DFJJ1RBKj_D?width=242&height=185&cropmode=none",
         ),
-SparePart(
-          stock: "1418411",
-          numPart: "3.0102E+11",
-          description: "CORREA FORZAM 301024190050 VER 1013063",
+        SparePart(
+          sap: "1419441",
+          numPart: "301022020980",
+          description: "RESORTE MUELLE DE COMPRESION",
           machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-08",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          slotLocation: "3000 Refacc. Línea EST10-11",
+          image: "https://bl6pap003files.storage.live.com/y4mJXrYQhDapoSAFB6yRaVJlUJtYpu883_n02lknDPIttzPdRvoQKK25cMFLPC4iVJrvS97gZsG9SPHge9TQio422B5tzg7o5Wc83TnWUlRlMRBjqvfsxtGm0Rikdb4z4d9KNp_ahnRNSzCLuvVL3Hf6FT2f1c8o79r7viADHQdcCGQiJLxAfSn3u03QBTiBVKH?width=182&height=195&cropmode=none",
         ),
-SparePart(
-          stock: "1419230",
-          numPart: "H20433011181",
-          description: "DISCO H20433011181 KHS",
+        SparePart(
+          sap: "1419031",
+          numPart: "301024039850",
+          description: "ANILLO RANURADO",
           machineSerie: "LLENADORA L3",
-          slotLocation: "3000 Refacc. Línea EST10-06",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          slotLocation: "3000 Refacc. Línea EST10-01",
+          image: "https://bl6pap003files.storage.live.com/y4mOBN8yAtkDAGqN6HLlASPnv9_lekkL6EXb5A8EmiA_gEka8AyHeejPN6sXcQSuESnx2A6MUSWJix8gfpxnPRGdCUYmGZaRPWLRzhGueZ3pT50qMcIlmqvZTpReh5kQW3-aeegslLpbekku0Zs9UY-qnwAjbMmWzp2_jGiuKprsEER_P2LwMTeDf4jdLrGZsrJ?width=208&height=208&cropmode=none",
+        ),
+        SparePart(
+          sap: "1419034",
+          numPart: "H20533023171",
+          description: "SOPORTE DE TUBITO DE AIRE (HORQUILLA)",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-17",
+          image: "https://bl6pap003files.storage.live.com/y4mTEgvVkzs9czyWuQlG3qrQmApGaq7r_hQIJJYfFkmHZQs_4fuShBbJb0tddx34pFplf8wDiVaqQVY904Z4HYTpPmSZhNC4BnXsXItrHaN0hYWK60aiTTnzvdvRbdwH9lii1PHao6CQqBGX3MsCFoVjb4wJzVllwGWlOwymhQPXrMHiUGqwO0zr_vSeSFxEs3K?width=214&height=198&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418112",
+          numPart: "301024011070",
+          description: "JUNTA ANULAR ",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-01",
+          image: "https://bl6pap003files.storage.live.com/y4m2vsOCMmyTmIP1NFNqjtN4JVmBU7Nqkr1g2VSK1BNEtKtKBPL_GwgQNnNsb374VFXI4t66Sk5vJS6sNEyrLY1JbHq1Lv-6l5fgZrM7qC_yFBX-RfQRQGVTiWwMUSu8Vg4vKdzHuIQn9H-2PuqjPIZs4rXFAOVwjNU7r8q8SwuVBwhPJ4zgmp1OjYfOvHs3HPB?width=195&height=190&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418113",
+          numPart: "301024039450",
+          description: "ANILLO RANURADO",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-12",
+          image: "https://bl6pap003files.storage.live.com/y4mJYb51EdGx8LkMRC96LcwbqtV9q-sbLqeFX3hv_VIPMtk_ib3Xk_B5IsfMWKJYUbWG_tjDTWEeInVP9prpwpe2m5OBkX_tmWrnYs9ujO-GjQ2OFBsFVslnpzI42SBcqs_QClNIvG-9tlHMs6ziC4ttY0HN5zvpKYlsM-QJJuR7PrkIknvRsdvfy_PAZx8_axw?width=223&height=188&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418115",
+          numPart: "H20233065671",
+          description: "TORNILLO",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-18",
+          image: "https://bl6pap003files.storage.live.com/y4m4lqlvY2jK0cZU8XlfHhItIotZ6eBSWrPeN97fP5tzOqZGYEXWfwN63ANUrXir3qKSDT1BtMiLAsRdhGT3aLkjYTIzG-9Doa1d0f1CjyN5S22B7b0PWm1NDAb923NdXcI5DZj3qeVC2KSr7Xt6uzm2IhLhZ0qjoJ7ITYvdUJdkbs5VkJoYJf3g9hBVIFyKIoT?width=189&height=232&cropmode=none",
+        ),
+        SparePart(
+          sap: "1424603",
+          numPart: "H20533022353",
+          description: "GOMA IMPERMEABILIZADORA",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-08",
+          image: "https://bl6pap003files.storage.live.com/y4m_r-XaVti3znsxXYGt50MMecDCvCVvlJoAusmFiPka0jYxyOvzXcPkV0JNuH5wet2ii5waSAo79WiJO5hBeNNtgJNl1KPgeZEDZ7BUsyozYg2CLH8AebibxjP-kbMCDiPqlCx_ueqoGKhjev6Vo9WCNTibEbnnWEd75IPEpLpvalT2ggjrE0AgnpuMOdO6YKt?width=258&height=205&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418116",
+          numPart: "H20233059145",
+          description: "CASQUILLO",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-05",
+          image: "https://bl6pap003files.storage.live.com/y4m-6DGMyOGWSPQZid6dBSCE01YXrmxarQhJptsaqdk0MrhYjY0ephdhjdUL9qkyOZBp4PuzCeW3AlMHcL7XTrTvo4yDKGeu8u7drOk0mKSyRVZfydsU06OU8YQPXP7T3wsqE0xggpGuTo5uidnTAHZkik1vd6FAab9DeuCuG6t2SkPaUWWPmLBJRST4WH50hWH?width=256&height=189&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418117",
+          numPart: "H20533021561",
+          description: "ANILLO GUIA",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-02",
+          image: "https://bl6pap003files.storage.live.com/y4mREW2TPr0fawZxgSsLXLnkrAOkcX1qbV4nzGrv9-X6jsIJqiTXmbgtkgZAFjKQ5u-ZP_SZxpJgjeZ33qGIF3FbUaF64rqSl_UONIIPk4dlKrfUuOoLxdwzTNgb4v9B5iR442A7Ul9YoQ2-cpStarFTcj4XCGPXDlFmK0fGXms79qYLJZUIy-snh6hJ6bLPJKF?width=260&height=184&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418349",
+          numPart: "H20233063571",
+          description: "PLATILLO DE RESORTE",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-13",
+          image: "https://bl6pap003files.storage.live.com/y4m7IkiFrALh8KTb8M-tph2tmNekL97ogNgZZ1ogAmbqadbCBLVf-9otdpoUF6-uMKV5LEP0PgImjbabJgX8DXImUuDk08bELKR_BGbi_rwWmqjMfFThhXulTruQIU-87rmZFdKutjd4t9-cqHPB5xg-ag280VzNlQziCIxkVmcpYyByKJ8b8lhrAeNKxyZNtq8?width=215&height=225&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418354",
+          numPart: "301021220120",
+          description: "SEGURO TIPO E",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-19",
+          image: "https://bl6pap003files.storage.live.com/y4mbxnDvCdyWzSamTs6HjgqrJos8HixfyLedItvkrMhPrjGH_DvwHfFMVFKBVvvuX645ePEk61YqG9jJs9x9c_dG6TjoaCLDjH7KLkHrhRPiPm02-nzi3rWV9qy2gOlEUiUdrDn2n0-1aPHMSBVUKr4I5fYAZnr91p-GVfo19AMzSzCvU4wMgl3tAObXYhfCbk0?width=251&height=221&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418348",
+          numPart: "301104820300",
+          description: "CASQUILLO SECO",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-04",
+          image: "https://bl6pap003files.storage.live.com/y4mWlZZ4ANDcemmD1pRdCGLxAzHYIb0B0Vej0MmKVFR-qP9rJB_LYhgzf_qXFFsS5S5s6Je80ByFRbkpis2K9tDoBmHX7MmrNAZoENfXTJ7UNBILV0OwgfBb6Yb6zVNEqDyStJjWI3kxazx5HwCrPMG8E_TLAVLBB4jyCxTX6sm3job7ZxUjBDkf_kZC-wblmP6?width=219&height=193&cropmode=none",
+        ),
+        SparePart(
+          sap: "1422570",
+          numPart: "301021213610",
+          description: "ANILLO DE SEGURIDAD",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST13-34",
+          image: "https://bl6pap003files.storage.live.com/y4mbpIY4EnkiPknDedgSK3mn8SiWTVeHIC3oo1dZAbAokRGMZAaUrzqDn1Hy70bOqmHMXh57hjM5ZI-py85_2GTMvlX3smaqrQc5Oh2Kx-srWPRLJfP_irTeFBB56p9y1CFjsQu7IOG_HLwcopRu4HTDMrMKLfXVI1slSk1OvVSRoKHdQgYOSwZnCaDGfRZt6Ud?width=180&height=180&cropmode=none",
+        ),
+        SparePart(
+          sap: "1111924",
+          numPart: "301104201590",
+          description: "RODAMIENTO RIGIDO BOLAS 6003-2RS1/C3",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST14-35",
+          image: "https://bl6pap003files.storage.live.com/y4mSNScxbu-Dr1tACub4gUcLLsKlaTuANlles_xviOq3SJsT6Jsxys0Z-XziLHjQQnaDxLFQSm8l1hc9DVeL32EsZR3c3kQC82qEPHWKef8Mfkipe0yrwr2jkVtd7bxB7khcb_8D6mr7GECrY7JQYK6N2fruvT_W4Fn5zUMxZ4VHABeiFWNdd8WmIaMOGiaUSnz?width=197&height=177&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418457",
+          numPart: "H20233076701",
+          description: "POLEA DE RODADURA",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-14",
+          image: "https://bl6pap003files.storage.live.com/y4mEa-lKzmloDq2nJKXP8wMwoNPZNCWcpp50cwWz3lp7i_BUaYjSRhYsndL5dliGBMiVp613hxgznmRfiHknogKUjvqE6Dx5oVS3ZPuI0QhIOkj_I0ahDHLw0v8BMs6CrNKn-NMxKsQPdnKwN9dDqV9jsCfuxPcO-A_t5EaETP3IEYSt0MEHwxBikmKTUy9wox9?width=256&height=226&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418517",
+          numPart: "301021210400",
+          description: "ANILLO DE SEGURIDAD",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST13-41",
+          image: "https://bl6pap003files.storage.live.com/y4m6FuEqu1qVeezoV4WcBTGco3s-IKoMqEJQjw6KX0BT1dLWJTdXmC-VOgbtMNXVtbuWuvysg15XekyVww-KT0ZQ7O14uPe0riExkwZiMZmsNWCmynD1jwnEqftiDi2UvjOy7RmrcKpdxQ8Fh9x4KCZiG5-FGIcN6hkQamDtgGONSDXqetJNbOsc3Y-odlzE6nN?width=228&height=200&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418458",
+          numPart: "H23504010101",
+          description: "CAPERUZA",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-04",
+          image: "https://bl6pap003files.storage.live.com/y4m0xNUuLOOtgzPvZr6FgPo-57nZQa4pgO-c5KUdNpqFqfvq_YicgYWfwozcLeiUXKy8lZ6kVVDF3vbB0l40R65BSQQdBcggEUEs3L4PogRrDgcrsilQbdw7MM1Wif1nsKPzhDms57aPcqyRAK05sDBtWOzkawnswXBJgIoe9mUTB5T1jYN9QIELFdr6N-UEl7G?width=247&height=177&cropmode=none",
+        ),
+        SparePart(
+          sap: "1417629",
+          numPart: "",
+          description: "PRISIONERO T-ALLEN 4X8MM AC.INOXIDABLE",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST13-37",
+          image: "https://bl6pap003files.storage.live.com/y4mV9d3GJuZPLt66GgX-EpiiZiqmJoTw4MPrXmXaqpeGeYIukcEG-TsLO4X_jjqmofGHvL3RlxuzIdmB0PiNGyNfZbr0SQV80K68AUvzXNrviRsMUZ5few2S7oV9dO3tTOLxZDUxDa9Xym0PVovuyEz6YhTdZYGBpOhx8R0oWgr_o4fnE4fy7Wfof2jHE7bdKXE?width=153&height=185&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418351",
+          numPart: "H20233058951",
+          description: "BULON/PERNO/EJE",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-03",
+          image: "https://bl6pap003files.storage.live.com/y4mhQea67uLgMIpibnk9UR14sMMDTHj_B0EnmgcmQT9w8Bs9C7h1PYAKqiruN0zy0P4_CPn9lEQPIF_YRar5SV2bis3hg0SDV5nY1Jy80mQTEIcDNiCxirwH_Qt4h-eOJA7JXo8S05ihLHwaBxwSJjM0B7AWn3RjSDN6UBEkaX7YPp6v1bkhOrbv3L38uiPoAua?width=124&height=236&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418352",
+          numPart: "H20233046751",
+          description: "BULON/PERNO/EJE",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-06",
+          image: "https://bl6pap003files.storage.live.com/y4mPVZFshngSSRFgDZM3Dop9nARsK9RPzXWCktZiaIex0QV0bNB8HSd-2LwpgjQgSUukKQFFdetWO6Tpe_RPgWnp-D7IHr9tVcjemhcJWi-IXoVWqoNF93ielgG105dy_erGzZ7WIe8wkTXl48OQN6xusE-tmsHfFDjY_DnsMTWvXQK004_uKhHG7Y2iSpXKKCk?width=160&height=256&cropmode=none",
+        ),
+        SparePart(
+          sap: "1418353",
+          numPart: "H20233058881",
+          description: "BULON/PERNO/EJE",
+          machineSerie: "LLENADORA L3",
+          slotLocation: "3000 Refacc. Línea EST12-03",
+          image: "https://bl6pap003files.storage.live.com/y4m9KLhtaqPNFMHGK9NK284samEgH6tc_8ifdqLMOKVv4Ok86Gr_p8SN5yTewllKwDa5BlJzjkf0EMqmeVm3NbvCqcO9yJo_WbXg_dZb7PJlHDdLF2OA6ug0VoHpTLc3DRGv2A5L5mvI3TDhoJUQFMKaJPj-6ymxmwT_3278cA9uw902hWGTJKhnrmU3-K30KSR?width=168&height=246&cropmode=none",
         ),
       ];
       //Paletizadora
       case 3: return [
         SparePart(
-          stock: "1420056",
+          sap: "1420056",
           numPart: "3630020",
           description: "Cono de centraje en nylon",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST11-69",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4murBmvER5cGOx6jB3TPhbUFfJ5RLapLFrDKlgV-uRONOXrBsPU1Th8Ci9Q91BA4LDqT6cQ6xeNW8xAn1XfeNlGsQ2XdlXz4xD14I3TTqZz4VyemfGSJ7gW4C-ZuNDShIFz9JvpRP1rZwwrnrRALcH2oUyB3AsbsNfMnyufCPOd3bVgDAQEB6v0hMzBYoCIVQD?width=187&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1420057",
+          sap: "1420057",
           numPart: "36300210",
           description: "Zincho (abrazadera) superior en nylon",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST12-63",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mR_G3tPJMl84lZ-2RkOGeho79PbYUWvEV96S7vR1w2_8Ei_VYSlAaxQlHJbN6i-yYFvj5NA0Wkp-hE52vIU_dpCvzAw2xx_fYs-VH6a14KgnQuijc7nJs0Ci7DwMHffFFGHiiye4mTmNUlreF3FaxFfOKBQXHKUtCwLQ9tzwO9VlzlTWuTNKf8grWyBlqsfWX?width=208&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1420062",
+          sap: "1420062",
           numPart: "36300215",
           description: "Resorte a compresion en acero inox brillante",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST11-70",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mxpj_SVJkcRCydyUSSiRbVMk-3o-AKddZTd-hF58Xoh8UqtqGGzH2zFtRsxAP8OXbryv__piuVN8pvxbAlL6vEsm_BBKD9qwR6fdMt8kZInfdbMXIk0Zo-7o5QwGEv9YNYvwGFmVUizEsHtRD40EdIpvg7dAK9e9GQlPtrA2xPPfxpQkQtbc7NrHXXp-xDPMa?width=211&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1420264",
+          sap: "1420264",
           numPart: "60200011",
           description: "Tornillo interno",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST12-69",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mq2DbuRzz-YMOmQxNh6vESSIkFPvC8v7CfHgMOxvv6olmTgQj-a2pWU9hmC4yfNtq9RlCUnvTipwV6QRPhNV4poq5rcfmdBwWdxGed9SaEKaHlsV0sR1Bau_9a3Ou6EVvmNeLlguhLuCjfhRtPrbqtHnucXbrM_wboTjHrakMC3EPrZVUnvzJtoUlDOa_B6f_?width=211&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1420061",
+          sap: "1420061",
           numPart: "60200010",
           description: "Eje para campana",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST11-69",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mBbv9DyobAgpdm1qzC7GeE6ZcvcvFetHYDcQLyD9eg9hMkJGDkG6LPWGE0KAIFKyfkA9jvs_bMifel1B1QhGzxMv31ydJH9dt6JLo-SmjRb9JbN4DpsH5D-B0L_DO8fDIYxVVxLZzEitL_o2C-NF94YTAMSGSeB9wBaDQoHojcCGCi1GL_ZsuUXagMTGxhh3A?width=217&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1420060",
+          sap: "1420060",
           numPart: "344000112",
           description: "ANILLO O-RIN",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST11-68",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m17QXiVSgzN_T_HhxNMNOyNfsPo8dzHYFM6c4vVrzfWbsh3OifAEH0yLYv1DjWMoFUTXtHIxXHBu5u25zN4s7oDCn67kdUY4tMqpwNNKs2P8NLfqLL82OhnjfXtnAnyztDwrZPd0d6tDxLu2wAnDV_OMLXdXo6Fk0PTGT5_E9UetRLRbX5fbUL0LA8atG272c?width=185&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1420063",
+          sap: "1420063",
           numPart: "36301005",
           description: "VENTOSA ESFERA EN CUCHO",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST11-70",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mkuft9TC-u_dVaS68kWon1oL6H1g4Xqa8tyReYzyUqvEC4RFHaCZzrzglyD79wXC7slC6wtTdN0TkmWvUq8bVgHymfz-7lXU5d0D9URvoPI7SoxiZcAwBpllY-c1VJ1hnvzWMd8RyNHmn6-uEzXNyqoid-YfHqTkDrAtoa6eE0codeRxIXNqa8OV-rmAfzz_e?width=192&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1420058",
+          sap: "1420058",
           numPart: "36300205",
           description: "Zincho (abrazadera) inferior en nylon",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST11-68",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mrbj9pPH_MfbY4g7OXPsU51rATsF8O19_yz6dbDiXEXQXG3LjCqgrgCfXBuBcxfoeQIiH1Uot6vS17wwlAQ0_HyySXBIOyLPMxjgPWy76aWpM--0Pk_Gk2rTI9EjFEv7PFAb4JcIMIh-2yjuYhm_dRljV8C3fxq2r3vi3eAnPdVeZLe-zEOS9BB7XIINqk0Sh?width=205&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "14200898",
+          sap: "14200898",
           numPart: "WT260-R270",
           description: "FOTOCELDA WT260-R270",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST13-09",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mdWeg_OP5Vv7egvPv2WRTtV4oS2J1H8fy1LIBSBhnCaxfvKM55u2nibokk1kbyBpdOr_jO7TN19VfSFDLtVrLLXBl1ND_lU8oWuT2Bacugx3Awk0wjBpQFf37Yifnn0WglknV8-B522b_YFHABjhlBC_lWAGdXYiK6LoX-YgztcfyQwRVNCDkdHORNPQdujFu?width=182&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1418244",
+          sap: "1418244",
           numPart: "S55B3-32",
           description: "SENSOR FOTOELEC EM-RECPT INFROJ S55B3-32",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST12-59",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mC0RzULi7cE2uRDR2gvy_6tMixEHjL9PJs_7UvifwFRKf_44BXLY1jGqduJkhsDW1HIlIKeq6B3syDaGlD9sefEsYGLNp7hpnnH2bshy0gMrMifNfH0hYHXgDxRgHtHJRC_q7jtNjEpCBRDT8qRNvGKywaElHfSk23mAXyfxnU9uGJsfR_RBrMk8MiKoBMqC_?width=256&height=154&cropmode=none",
         ),
 SparePart(
-          stock: "1446724",
+          sap: "1446724",
           numPart: "S50-PA-5-C01-PP",
           description: "SENSOR DE PROXIMIDAD S50-PA-5-C01-PP",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST30-27",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4ml14ckzKQf8B9aOolrkbbS8eLBex4qiV1OEvR-EjKUUVUNJC3tKwommx8s7BEnBPcSnCPRG2pPLBG2g961FA4oKI3kVhiL5ExflIpmZTLbd0CX-9nbFh3hh7StQ4VwiM3kq0bBxqfuLIlVj8eCXXptqUHTdU8gphuET29GuKXDocn8sS1DsGy6Z1o8MiZuH2r?width=333&height=325&cropmode=none",
         ),
 SparePart(
-          stock: "1418294",
+          sap: "1418294",
           numPart: "150857",
           description: "SENSOR PROX 150857",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST09-39",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mDZclIMgDNvK-waJID9FeOAEs0isr5grjHFpKwo32zhTIBUj1Sk4QD6_Tr9p-FKvXxhhn7zT9jGHFras_O930fHeio_5FYDObAaUYmOkKp0SYOuGEgsqKBQcEzu2M9kfIhSNs-jYqqjlNpMTiZnRzdHiD7UoBA3zqlbKzsqCTEBq20Ffd9cIF5_opdOG_EYMU?width=191&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1425474",
+          sap: "1425474",
           numPart: "159688",
           description: "ELECTROVALV.IMPULSO ELECTRICO 159688",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST09-41",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mSqczrEIyIupkKRvs5i6vC1ZVCakj2Hc28UTP0eGVY74IgPSqr67ECh9zHXqAU-dp-xiUFRA9yz0iPoKelX1r2_DPDGM62GgS8APYrc1DHEJAlKZyeydIxw800ZLxO7eKH9QgiCNFQdOAmzeHXRofObwnvc6xNMJkwXAUaboqEFd27GJx0IpBrTmcLlorXdxW?width=224&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1449208",
+          sap: "1449208",
           numPart: "JMN1H-5/2-D-1-C",
           description: "ELECTROVALV. DOBLE IMPULSO ELÉCTRICO",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST09-41",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mpjKJS2um09WX1vWqzqZIzFwDMn1ntXWYcB1gI-gBOxFYdZSzU_zBx1jBgGNjw2JocFMxX-2uYGnolqZiZvqCBtarbpYfC4cGjC8VEdPkT6OiT845KqyaYEHZucLMYEA5eihtLssSD3ELXxh1-IWJgO7bScS6_vRFldSsnNpLclEqFADeQwkRW2TZTlcU5WBQ?width=189&height=256&cropmode=none",
         ),
 SparePart(
-          stock: "1423532",
+          sap: "1423532",
           numPart: "IG5405",
           description: "SENSOR INDUCTIVO M18 24VDC IG5405 PNP NO",
           machineSerie: "PALETIZADORA L3",
           slotLocation: "3000 Refacc. Línea EST12-38",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m31tjtQnt8waz33OVX91ilOgUBBdGCHTwyJkdsTeABIhryJS-XKGnhKwUUT3omwx2zGlZPYVYE9ZPw4ca_cNOHQq_i1t8oxcPcTa5AspFoErry3XNwMmvBiaxmFih0BBLJblWV6jNbkMCAhJu4CsJr5cjbARim10zw8awnhTBVE805rtoZIHb_NcuqnAelcvL?width=138&height=250&cropmode=none",
         ),
       ]; break;
       case 4: return [
         SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611922594",
           description: "9611922594 SERVICE KIT EPDM LKH-25/35/45 SIC/SIC SINGLE SHAFT",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mF5bGfWXKRcrDj7_-yw7Nqkx5VAAyIlJSyL5v-gsZC1Z69TnZzMgnBXHqGPjhDt_eBqyTPtCZ-cgo8Iz_9ue1RRwGX_0GFJKQzPq29DItl1dETp354r58IKnfu1_vD-Yh8HIcqcFnudwtvAKcvi3OJO1pUymy-Nx9LOI_QHErLrVlrxvXAK4lCON8x-9hCuAn?width=460&height=371&cropmode=none",
         ),
 SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611923100",
           description: "9611923100 Service Kit For Lkb Butterfly Valve Epdm",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4menrUUBTOMnjEJoxfPOOPMZagRe12818anCB6pKtGnly2YQLRp-EvKHXqfiWKhpHss2HPp8A8kVmGsqT27i4Edch_p1pc9Cqe5negNX0YzTxVn2tFlIr2roS7_I635cy5UAiIwJhNaNdpICAgnP5oGO4UJZYXISlwv-JJ7DspKEPFMqWVM2IMPBy4Qc1YazLI?width=244&height=240&cropmode=none",
         ),
 SparePart(
-          stock: "1426974",
+          sap: "1426974",
           numPart: "9611923102",
           description: "KIT ASIENTO DN40 EPDM 9611923102 A LAVAL",
           machineSerie: "MEZCLADOR",
           slotLocation: "3000 Refacc. Línea EST27-44",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mCNzZq88icPFwjtDQGb-d5DcceurIpUn0Gcg-cVjDnY2Qywor26eq29iC7xAHtY0jhBgmXImpBlABZAHThY1-yxnDyXGEMESFkqnEZJ40fCkCMfz9MBCHa2GElJn84Z6u77clxZZguZn5-NGXcuLvc2psPs0GbW-_zeemF1o-5h4TVOuxOOpw4hBh80QGy1Rc?width=340&height=271&cropmode=none",
         ),
 SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611923105",
           description: "KIT ASIENTO DN80 EPDM 9611923105 A LAVAL",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mw5aBu_1-AoXAA6dIeHn-dlOgy8a1f2IEzY3c3YyWuXp8EbtsPeLqDQ1VUrFnt7SkJLYmXOfNphoZagC7-ysOoVPSm9DgJyU186EgHr0_jpuinfmvZb6x7sWqqRY8YGlWcjllS62xlesqSbq8slE82YFkHcTi9TCOxbyCWQ1u3vsm3KzfX72hckI6DtyYxrlo?width=374&height=176&cropmode=none",
         ),
 SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611926502",
           description: "9611926502 Kit de servicio para válvula de asiento de cierre 7000 única de 1,5",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mgWw1cNIt7SEHBWEwsg9uNv2isq3CGbB4kEmjWS8wyO-zbFjM8acaAwWPXbCOra4GGpTjXPnoHV7nMxtpneFn0pdKcxciIhcrmqc3n9-OTcgEudl1FNJ2gMdAOaTlQ4gPBKNbZ-GSodZOPe07RucN0dwG1oHxQFVr6MEx1xdtjHe6Pkow5FCW1S0PEKBseiSy?width=357&height=240&cropmode=none",
         ),
 SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611926500",
           description: "9611926500 Servicio Kit actuador SSV/7000",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mjHA40OdsYKz31F_S7eEWZpTHcjMsNirvnszWcMcf1zXXnck8TiBlpURQ1OzAphyO9prq4KLVoNdJHkds_g_OCzTWmUL27B6LxSq0Cw95hkYifdgE9t-dQjySCkPXgekz_tv2CerLfZ3E4euwLrZw93zZPkDx_KipOoXtXTRNHU8rl2_fjtcjP5TEjSAXjNee?width=358&height=308&cropmode=none",
         ),
 SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611922619",
           description: "9611922619 Service kit, SiC/SiC (LKH-40/50/60)",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mF5bGfWXKRcrDj7_-yw7Nqkx5VAAyIlJSyL5v-gsZC1Z69TnZzMgnBXHqGPjhDt_eBqyTPtCZ-cgo8Iz_9ue1RRwGX_0GFJKQzPq29DItl1dETp354r58IKnfu1_vD-Yh8HIcqcFnudwtvAKcvi3OJO1pUymy-Nx9LOI_QHErLrVlrxvXAK4lCON8x-9hCuAn?width=460&height=371&cropmode=none",
         ),
 SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611923103",
           description: "KIT ASIENTO DN50 EPDM 9611923103 ALFA LAVAL",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mCNzZq88icPFwjtDQGb-d5DcceurIpUn0Gcg-cVjDnY2Qywor26eq29iC7xAHtY0jhBgmXImpBlABZAHThY1-yxnDyXGEMESFkqnEZJ40fCkCMfz9MBCHa2GElJn84Z6u77clxZZguZn5-NGXcuLvc2psPs0GbW-_zeemF1o-5h4TVOuxOOpw4hBh80QGy1Rc?width=340&height=271&cropmode=none",
         ),
 SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611923106",
           description: "KIT ASIENTO DN100 EPDM 9611923106 ALFA LAVAL",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mCNzZq88icPFwjtDQGb-d5DcceurIpUn0Gcg-cVjDnY2Qywor26eq29iC7xAHtY0jhBgmXImpBlABZAHThY1-yxnDyXGEMESFkqnEZJ40fCkCMfz9MBCHa2GElJn84Z6u77clxZZguZn5-NGXcuLvc2psPs0GbW-_zeemF1o-5h4TVOuxOOpw4hBh80QGy1Rc?width=340&height=271&cropmode=none",
         ),
 SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611923104",
           description: "KIT ASIENTO DN65 EPDM 9611923104 ALFA LAVAL",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mCNzZq88icPFwjtDQGb-d5DcceurIpUn0Gcg-cVjDnY2Qywor26eq29iC7xAHtY0jhBgmXImpBlABZAHThY1-yxnDyXGEMESFkqnEZJ40fCkCMfz9MBCHa2GElJn84Z6u77clxZZguZn5-NGXcuLvc2psPs0GbW-_zeemF1o-5h4TVOuxOOpw4hBh80QGy1Rc?width=340&height=271&cropmode=none",
         ),
 SparePart(
-          stock: "1421318",
+          sap: "1421318",
           numPart: "9611923079",
           description: "KIT REP.VALV 9611923079 EPDM LKB-2",
           machineSerie: "MEZCLADOR",
           slotLocation: "3000 Refacc. Línea EST28-28",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4mCNzZq88icPFwjtDQGb-d5DcceurIpUn0Gcg-cVjDnY2Qywor26eq29iC7xAHtY0jhBgmXImpBlABZAHThY1-yxnDyXGEMESFkqnEZJ40fCkCMfz9MBCHa2GElJn84Z6u77clxZZguZn5-NGXcuLvc2psPs0GbW-_zeemF1o-5h4TVOuxOOpw4hBh80QGy1Rc?width=340&height=271&cropmode=none",
         ),
 SparePart(
-          stock: "(EN PROCESO DE CREACIÓN)",
+          sap: "(EN PROCESO DE CREACIÓN)",
           numPart: "9611923021",
           description: "9611923021 Service Kit for LKLA-T-085 Butterfly Valve, KIT DE ACTUADOR",
           machineSerie: "MEZCLADOR",
           slotLocation: "(POR DEFINIR)",
-          image: "assets/imgs/Linea2.png",
-          images: UtilsImages.getMockedImagesLine1(i)
+          image: "https://bl6pap003files.storage.live.com/y4m_d6njALK7Ad94pCtji1Q2Lfq7zn-hGaO4fd-NEHYeo_3dDOP8Jebh5M_FC6DAzLHCf5gpzsi3viioxNHLAMiMfmZCwE-k6aduD2bKDtUl3GWegz7wRJwNfj1ftlBaTUbkOROQ1hdTLsPPK9bUzS0Ghx58jDriYoStixP3J7hkjPwyxdN4XQi7tIZEN_tSm2q?width=450&height=311&cropmode=none",
         ),
 
       ];

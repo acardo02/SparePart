@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.spare_part_app">
    <application
-        android:label="spare_part_app"
+        android:label="RepLog"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/icon_app">
         <activity
             android:name=".MainActivity"
             android:exported="true"

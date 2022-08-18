@@ -9,7 +9,7 @@ import 'dart:convert';
   Future getASparePart({ @required String query}) async {
  
     final response = await http.get(
-      Uri.parse('https://test-api-af.herokuapp.com/api/getOne/stock/$query'),
+      Uri.parse('https://test-api-af.herokuapp.com/api/getOne/$query'),
     );
 
     final body = jsonDecode(response.body);
@@ -28,10 +28,10 @@ import 'dart:convert';
     
   }
 
-  Future getImages({ @required String stock}) async {
+  Future getImages({ @required String sap}) async {
 
     final response = await http.get(
-      Uri.parse('https://test-api-af.herokuapp.com/api/getImages/$stock')
+      Uri.parse('https://test-api-af.herokuapp.com/api/getImages/$sap')
     );
 
     final body = jsonDecode(response.body);

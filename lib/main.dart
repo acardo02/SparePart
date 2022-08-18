@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import './screens/homePage.dart';
+import 'screens/home_page.dart';
  
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,8 +24,9 @@ class MyApp extends StatelessWidget{
         debugShowCheckedModeBanner: false,
         title: title,
         theme: ThemeData(
-          colorScheme: const ColorScheme.dark(),
-          primarySwatch: Colors.deepOrange,
+          //fontFamily: 'Roboto',
+          colorScheme: const ColorScheme.light(),
+          textSelectionTheme: const TextSelectionThemeData(cursorColor: Colors.black)
         ),
         home: HomePage(),
       );
