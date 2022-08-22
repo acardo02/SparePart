@@ -84,15 +84,9 @@ Widget buildImages(String sap, width, height) => FutureBuilder(
         case ConnectionState.waiting:
           return const Center(child: CircularProgressIndicator());
         default:
-          if (snapshot.hasError) {
-            return Container(
-              color: Colors.black,
-              alignment: Alignment.center,
-              child: const Text(
-                'No se puede encontrar las imagenes',
-                style: TextStyle(fontSize: 28, color: Colors.white),
-              ),
-            );
+          if (snapshot.hasError || snapshot.data[0]['url'] == null) {
+            String image = 'https://i0.wp.com/elfutbolito.mx/wp-content/uploads/2019/04/image-not-found.png?ssl=1';
+            return createImage(context, image, width, height);
           }else{  
           List images = snapshot.data;
           String image = images[0]['url'];
@@ -226,15 +220,16 @@ createImage(BuildContext context, String image, width, height) {
         );
       },
       child: Container(
-                width: width ,
-                height: height,
+                width: width / 1.3,
+                height: height / 4.3,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: Image(image: NetworkImage(image))
                     ),
                 ),
-    );
-  }
+     );
+    }
+  
   /*showSimpleDialog(BuildContext context) {
     return showDialog(
       context: context, 

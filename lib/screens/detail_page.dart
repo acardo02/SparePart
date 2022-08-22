@@ -175,11 +175,12 @@ class DetailPage extends StatelessWidget{
                 height: height / 4.3,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(20),
-                  child: Image(image: NetworkImage(item.image))
+                  child: Image(image: NetworkImage(image))
                     ),
                 ),
-    );
-  }
+     );
+    }
+  
 
   /*showSimpleDialog(BuildContext context) {
     return showDialog(

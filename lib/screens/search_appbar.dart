@@ -171,7 +171,7 @@ Widget buildResultImages(String sap) => FutureBuilder(
         case ConnectionState.waiting:
           return Center(child: CircularProgressIndicator());
         default:
-          if (snapshot.hasError) {
+          if (snapshot.hasError ) {
             return Container(
               color: Colors.black,
               alignment: Alignment.center,
@@ -217,15 +217,19 @@ Widget buildImages(String sap) => FutureBuilder(
         case ConnectionState.waiting:
           return Center(child: CircularProgressIndicator());
         default:
-          if (snapshot.hasError) {
-            return Container(
-              color: Colors.black,
-              alignment: Alignment.center,
-              child: Text(
-                'No se puede encontrar las imagenes',
-                style: TextStyle(fontSize: 28, color: Colors.white),
-              ),
-            );
+          if (snapshot.hasError || snapshot.data[0]['url'] == null) {
+            return Center(
+          child: Container(
+            width: 300,
+            height: 300,
+             decoration: BoxDecoration(
+               image: DecorationImage(
+                 image: NetworkImage('https://i0.wp.com/elfutbolito.mx/wp-content/uploads/2019/04/image-not-found.png?ssl=1'),
+                 fit: BoxFit.cover
+                ),
+               )
+            ),
+          );
           }else{  
           List images = snapshot.data;
               if (kDebugMode) {
@@ -239,7 +243,7 @@ Widget buildImages(String sap) => FutureBuilder(
              decoration: BoxDecoration(
                image: DecorationImage(
                  image: NetworkImage(images[0]['url']),
-                 fit: BoxFit.fill,
+                 fit: BoxFit.cover,
                 ),
                )
             ),
