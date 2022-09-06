@@ -1,6 +1,5 @@
 // ignore_for_file: file_names
 
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:spare_part_app/data/spareparts.dart';
 import 'package:spare_part_app/model/spare_part_model.dart';
@@ -78,6 +77,7 @@ class ShowSpareParts extends StatelessWidget {
                                   image: DecorationImage(
                                     image: NetworkImage(spareParts[index].image),
                                     fit: BoxFit.cover,
+                                    alignment: Alignment.center
                                   ),
                                 ),
                               ),
@@ -119,31 +119,5 @@ class ShowSpareParts extends StatelessWidget {
         ), 
     );
   }
-    
-Widget buildImages(SparePart sparePart) {
-
-  List<String> images = sparePart.images;
-  return CarouselSlider(
-        options: CarouselOptions(
-          height: 250,
-          autoPlay: true,
-        ),
-        items: images
-            .map(
-          (item) => Container(
-            margin:  const EdgeInsets.all(10.0),
-             decoration: BoxDecoration(
-               borderRadius: BorderRadius.circular(8.0),
-               image: DecorationImage(
-                 image: AssetImage(item),
-                 fit: BoxFit.cover,
-               )
-             ),
-          ),
-            )
-            .toList(),
-  );
-}
-
 }
 

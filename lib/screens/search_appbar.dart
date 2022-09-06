@@ -3,8 +3,6 @@
  
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:carousel_slider/carousel_slider.dart';
-import 'package:spare_part_app/screens/detail_page.dart';
 import 'package:spare_part_app/screens/detail_page_search.dart';
 
 import '../services/spare_part_api.dart';
@@ -118,7 +116,7 @@ class SparePartSearch extends SearchDelegate<String> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
-                                  child: buildImages(data[index]['sap']),
+                                  child: buildImages(data[index]['image']),
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
@@ -163,61 +161,8 @@ Widget buildSuggestions(BuildContext context) => Container(
         ),
       );
 
-
-Widget buildResultImages(String sap) => FutureBuilder(
-    future: getImages(sap: sap), 
-    builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) { 
-      switch (snapshot.connectionState){
-        case ConnectionState.waiting:
-          return Center(child: CircularProgressIndicator());
-        default:
-          if (snapshot.hasError ) {
-            return Container(
-              color: Colors.black,
-              alignment: Alignment.center,
-              child: Text(
-                'No se puede encontrar las imagenes',
-                style: TextStyle(fontSize: 28, color: Colors.white),
-              ),
-            );
-          }else{  
-          List images = snapshot.data;
-              if (kDebugMode) {
-                print(images);
-              }
-          return CarouselSlider(
-        options: CarouselOptions(
-          height: 250,
-          autoPlay: true,
-        ),
-        items: images
-            .map(
-          (item) => Container(
-            margin: EdgeInsets.all(10.0),
-             decoration: BoxDecoration(
-               borderRadius: BorderRadius.circular(8.0),
-               image: DecorationImage(
-                 image: NetworkImage(item['url']),
-                 fit: BoxFit.cover,
-               )
-             ),
-          ),
-            )
-            .toList(),     
-          );
-        }
-      }
-  }
-);
-
-Widget buildImages(String sap) => FutureBuilder(
-    future: getImages(sap: sap), 
-    builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) { 
-      switch (snapshot.connectionState){
-        case ConnectionState.waiting:
-          return Center(child: CircularProgressIndicator());
-        default:
-          if (snapshot.hasError || snapshot.data[0]['url'] == null) {
+Widget buildImages(String image) {
+  if (image == null) {
             return Center(
           child: Container(
             width: 300,
@@ -231,10 +176,6 @@ Widget buildImages(String sap) => FutureBuilder(
             ),
           );
           }else{  
-          List images = snapshot.data;
-              if (kDebugMode) {
-                print(images);
-              }
           // ignore: avoid_unnecessary_containers
           return Center(
           child: Container(
@@ -242,16 +183,14 @@ Widget buildImages(String sap) => FutureBuilder(
             height: 300,
              decoration: BoxDecoration(
                image: DecorationImage(
-                 image: NetworkImage(images[0]['url']),
+                 image: NetworkImage(image),
                  fit: BoxFit.cover,
                 ),
                )
             ),
           );
         }
-      }
-  }
-);
+}
 
 
 }

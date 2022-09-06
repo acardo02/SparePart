@@ -8,7 +8,6 @@ class SparePart {
    String slotLocation;
    String image;
    double price;
-   List<String> images;
 
  
    SparePart({
@@ -19,8 +18,6 @@ class SparePart {
      this.slotLocation,
      this.image,
      this.price,
-     this.images
-
   });
   
   

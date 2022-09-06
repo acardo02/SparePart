@@ -37,10 +37,6 @@ class Viewer extends StatelessWidget {
                     margin: const EdgeInsets.only(right: 15),
                     child: Stack(
                       children: [
-                        /*Positioned.fill(child: ClipRRect(
-                          borderRadius: BorderRadius.circular(20),
-                          child: Image.asset(machines[index].image, fit: BoxFit.cover)
-                        )),*/
                         Positioned(
                           left: 0,
                           right: 0,
@@ -49,14 +45,6 @@ class Viewer extends StatelessWidget {
                             decoration: BoxDecoration(
                               color: const Color(0xFF2E4750),
                               borderRadius: BorderRadius.circular(10),
-                              /*gradient: LinearGradient(
-                                begin: Alignment.bottomCenter,
-                                end: Alignment.topCenter,
-                                colors: [
-                                  Colors.black.withOpacity(0.7),
-                                  Colors.transparent
-                                ]
-                              )*/
                             ),
                             child: Center(
                               child: Text(machines[index].name, 
@@ -64,14 +52,6 @@ class Viewer extends StatelessWidget {
                             ),
                           )
                         ),
-                       /* Positioned(
-                          bottom: 5,
-                          left: 7.5,
-                          child: Text(
-                            machines[index].name,
-                            style: const TextStyle(color: Colors.white, fontSize: 14, fontFamily: 'Roboto', fontWeight: FontWeight.w700),
-                          )
-                        )*/
                       ]
                     ),
                         ),

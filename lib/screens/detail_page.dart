@@ -57,14 +57,6 @@ class DetailPage extends StatelessWidget{
                         height: 5
                       ),
                       sparePartInf(height, width),
-                     /* IconButton(
-                      onPressed:  () => showSimpleDialog(context), 
-                      icon: const Icon(
-                        Icons.add_circle,
-                        color: Colors.black,
-                        size: 40
-                        )
-                      )*/
                     ],
                   ),
                 ),
@@ -146,14 +138,27 @@ class DetailPage extends StatelessWidget{
             ),
             textAlign: TextAlign.left,
           ),
-          const SizedBox( height: 10),
-          Text(
-            item.slotLocation,
-            style: const TextStyle(
-              fontSize: 17.5,
-              color: Colors.black,
-              fontFamily: 'Roboto'
-            )
+          const SizedBox( height: 15),
+          Row(
+            children: [
+              const Text(
+                "Ubicación: ",
+                style: TextStyle(
+                fontSize: 17.5,
+                fontWeight: FontWeight.bold,
+                color: Colors.black,
+                fontFamily: 'Roboto'
+                )
+              ), 
+              Text(
+                item.slotLocation,
+                style: const TextStyle(
+                  fontSize: 17.5,
+                  color: Colors.black,
+                  fontFamily: 'Roboto'
+                )
+              )
+            ]
           )
         ],
       ),
@@ -179,28 +184,5 @@ class DetailPage extends StatelessWidget{
                     ),
                 ),
      );
-    }
-  
-
-  /*showSimpleDialog(BuildContext context) {
-    return showDialog(
-      context: context, 
-      builder: (BuildContext context) {
-        return SimpleDialog(
-          title: const Text('Más información', style: TextStyle(fontFamily: 'Roboto')),
-          children: [
-            Text(item.machineSerie,
-            textAlign: TextAlign.center,
-            style: const TextStyle(fontFamily: 'Roboto'),),
-            IconButton(
-              onPressed: () {
-                Navigator.pop(context);
-              }, 
-              icon: const Icon(Icons.arrow_back)
-            )
-          ],
-        );
-      }
-    );
-  }*/
+    }  
 }

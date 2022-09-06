@@ -1,8 +1,5 @@
 // ignore_for_file:sized_box_for_whitespace
-import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:spare_part_app/services/spare_part_api.dart';
 
 import 'image_page.dart';
 
@@ -36,7 +33,7 @@ class DetailPageSearch extends StatelessWidget{
             height: height * 1.01,
             child: Column(
               children: [
-                topInformationWidget(width, height),
+                topInformationWidget(context, width, height),
                 SizedBox(
                   height: 20,
                   width: width / 1.1,
@@ -59,14 +56,6 @@ class DetailPageSearch extends StatelessWidget{
                         height: 5
                       ),
                       sparePartInf(height, width),
-                      /*IconButton(
-                      onPressed:  () => showSimpleDialog(context), 
-                      icon: const Icon(
-                        Icons.add_circle,
-                        color: Colors.black,
-                        size: 40
-                        )
-                      )*/
                     ],
                   ),
                 )
@@ -77,29 +66,16 @@ class DetailPageSearch extends StatelessWidget{
     );
   }
 
-Widget buildImages(String sap, width, height) => FutureBuilder(
-    future: getImages(sap: sap), 
-    builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) { 
-      switch (snapshot.connectionState){
-        case ConnectionState.waiting:
-          return const Center(child: CircularProgressIndicator());
-        default:
-          if (snapshot.hasError || snapshot.data[0]['url'] == null) {
-            String image = 'https://i0.wp.com/elfutbolito.mx/wp-content/uploads/2019/04/image-not-found.png?ssl=1';
-            return createImage(context, image, width, height);
+Widget buildImages(context, String image, width, height) {
+    if (image == null) {
+            String imageN = 'https://i0.wp.com/elfutbolito.mx/wp-content/uploads/2019/04/image-not-found.png?ssl=1';
+            return createImage(context, imageN, width, height);
           }else{  
-          List images = snapshot.data;
-          String image = images[0]['url'];
-              if (kDebugMode) {
-                print(images);
-              }
           return createImage(context, image, width, height);
       }
-    }
-  }
-);
+}
 
-  topInformationWidget(width, height) {
+  topInformationWidget(context, width, height) {
     return Container(
       width: width,
       height: height / 2.3,
@@ -126,7 +102,7 @@ Widget buildImages(String sap, width, height) => FutureBuilder(
             child: Container(
               width: width / 1.3,
               height: height / 4.3,
-              child: buildImages(item['sap'], width, height),
+              child: buildImages(context, item['image'], width, height),
                 ),
               ),
         ],
@@ -174,6 +150,7 @@ Widget buildImages(String sap, width, height) => FutureBuilder(
       height: height / 9,
       child: Column(
         children: [
+          Expanded(child: Container(height: 25,)),
           Text(
             item['description'],
             style: const TextStyle(
@@ -203,6 +180,28 @@ Widget buildImages(String sap, width, height) => FutureBuilder(
                 ),
               ),
             ],
+          ),
+            Expanded(child: Container()),
+            Row(
+              children: [
+                const Text(
+                  "Ubicación: ",
+                  style: TextStyle(
+                    fontSize: 21,
+                    color: Colors.black,
+                    fontFamily: 'Roboto'
+                  )
+                ),
+                Text(
+                  item['slot_ubication'],
+                  style: const TextStyle(
+                    fontSize: 21,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                    fontFamily: 'Roboto'
+                  )
+                )
+              ]
           )
         ],
       ),
@@ -229,29 +228,10 @@ createImage(BuildContext context, String image, width, height) {
                 ),
      );
     }
-  
-  /*showSimpleDialog(BuildContext context) {
-    return showDialog(
-      context: context, 
-      builder: (BuildContext context) {
-        return SimpleDialog(
-          title: const Text('Más información', style: TextStyle(fontFamily: 'Roboto'),),
-          children: [
-            Text(item['purchase_order'],
-            style: const TextStyle(
-              fontFamily: 'Roboto'
-            ),
-            textAlign: TextAlign.center),
-            IconButton(
-              onPressed: () {
-                Navigator.pop(context);
-              }, 
-              icon: const Icon(Icons.arrow_back)
-            )
-          ],
-        );
-      }
-    );
-  }*/  
 
 }
+
+
+
+
+
