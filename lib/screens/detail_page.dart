@@ -52,7 +52,7 @@ class DetailPage extends StatelessWidget{
                   height: height / 2.25,
                   child: Column(
                     children: [
-                      sapAndPrice(),
+                      sapAndPrice(width, height),
                       const SizedBox(
                         height: 5
                       ),
@@ -74,11 +74,12 @@ class DetailPage extends StatelessWidget{
       child: Stack(
         children: [
           Positioned(
-            left: 50,
+            left: 400,
             bottom: 20,
             child: Container(
               width: 1000,
               height: height / 2.2,
+              alignment: Alignment.centerRight,
               decoration: const BoxDecoration(
                 color: Color(0xFFFAC02E),
                 borderRadius: BorderRadius.only(
@@ -89,7 +90,7 @@ class DetailPage extends StatelessWidget{
             ),
           ),
           Positioned(
-            top: 100,
+            top: 50,
             left: 50,
             child: createImage(context, item.image, width, height)
           ),
@@ -98,8 +99,12 @@ class DetailPage extends StatelessWidget{
       );
   }
   
-  sapAndPrice() {
-    return Row(
+  sapAndPrice(width, height) {
+    return Container(
+      width: width,
+      height: height / 9,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
       children: [
         const Text(
           "Sap: ",
@@ -118,8 +123,8 @@ class DetailPage extends StatelessWidget{
             fontFamily: 'Roboto'
           ),
         ),
-        Expanded(child: Container()),
       ],
+    ),
     );
   }
 
@@ -129,17 +134,22 @@ class DetailPage extends StatelessWidget{
       height: height / 9,
       child: Column(
         children: [
-          Text(
-            item.description,
-            style: const TextStyle(
-              fontSize: 17.5,
-              color: Colors.black,
-              fontFamily: 'Roboto'
-            ),
-            textAlign: TextAlign.left,
-          ),
-          const SizedBox( height: 15),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+                Text(
+                item.description,
+                style: const TextStyle(
+                  fontSize: 17.5,
+                  color: Colors.black,
+                  fontFamily: 'Roboto'
+              ),
+              ),
+            ],
+          ),
+          const SizedBox( height: 30),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
                 "Ubicación: ",
@@ -176,8 +186,8 @@ class DetailPage extends StatelessWidget{
         );
       },
       child: Container(
-                width: width / 1.3,
-                height: height / 4.3,
+                width: width / 1.05,
+                height: height / 3.0,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: Image(image: NetworkImage(image))

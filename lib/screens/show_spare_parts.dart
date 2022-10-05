@@ -17,6 +17,9 @@ class ShowSpareParts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<SparePart> spareParts = UtilsSpareParts.getMockedSpareParts(numLine, numMachine);
+
+    final width = MediaQuery.of(context).size.width;
+    final height = MediaQuery.of(context).size.height;
     
     return Scaffold(
       backgroundColor: const Color(0xFFF7F7F7),
@@ -35,7 +38,7 @@ class ShowSpareParts extends StatelessWidget {
                   itemCount: spareParts.length,
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
-                    mainAxisExtent: 280,
+                    mainAxisExtent: 400,
                   ),
                   itemBuilder: (BuildContext context, int index) {
                     final item = spareParts[index];
@@ -66,18 +69,20 @@ class ShowSpareParts extends StatelessWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Container(
-                                width: 200,
-                                height: 130,
-                                decoration: BoxDecoration(
-                                  borderRadius:  const BorderRadius.only(
-                                    topLeft: Radius.circular(10),
-                                    topRight: Radius.circular(10)
-                                  ),
-                                  image: DecorationImage(
-                                    image: NetworkImage(spareParts[index].image),
-                                    fit: BoxFit.cover,
-                                    alignment: Alignment.center
+                              Center(
+                                child: Container(
+                                  width: (400),
+                                  height: 300,
+                                  decoration: BoxDecoration(
+                                    borderRadius:  const BorderRadius.only(
+                                      topLeft: Radius.circular(10),
+                                      topRight: Radius.circular(10)
+                                    ),
+                                    image: DecorationImage(
+                                      image: NetworkImage(spareParts[index].image),
+                                      fit: BoxFit.cover,
+                                      alignment: Alignment.center
+                                    ),
                                   ),
                                 ),
                               ),
