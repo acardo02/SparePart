@@ -208,6 +208,8 @@ Widget buildImages(context, String image, width, height) {
     );
   }
 
+
+//Render the image
 createImage(BuildContext context, String image, width, height) {
     return GestureDetector(
       onTap: () {
