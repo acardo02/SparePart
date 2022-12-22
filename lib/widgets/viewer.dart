@@ -18,6 +18,7 @@ class Viewer extends StatelessWidget {
     List<Machine> machines = Utils.getMockedMachines(numberLine);
 
     return ListView.builder(
+            physics: const ScrollPhysics(),
             scrollDirection: Axis.horizontal,
             itemCount: machines.length,
             itemBuilder: (context, index){

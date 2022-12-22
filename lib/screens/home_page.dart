@@ -8,6 +8,7 @@ import 'package:spare_part_app/data/utils.dart';
 import 'package:spare_part_app/model/lines.dart';
 import 'package:spare_part_app/widgets/viewer.dart';
 
+import '../widgets/parts_viewer.dart';
 import 'search_appbar.dart';
 
 class HomePage extends StatelessWidget {
@@ -64,8 +65,8 @@ class HomePage extends StatelessWidget {
                                   ),
                                   const SizedBox(height: 8,),
                                   SizedBox(
-                                    height: 125,
-                                    child: Viewer(numberLine: index)
+                                    height: 300,
+                                    child: PartsViewer(numberLine: index)
                                   ),
                                   const SizedBox(height: 12)
                                 ]
