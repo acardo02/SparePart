@@ -38,6 +38,11 @@ class Utils {
         imgName: "assets/imgs/big_Bottle.svg",
         machines: getMockedMachines(i++)
       ),
+      Lines(
+        name: "Jarabe",
+        imgName: "assets/imgs/big_Bottle.svg",
+        machines: getMockedMachines(i++)
+      )
     ];
   }
 
@@ -46,7 +51,6 @@ class Utils {
         case 0: return [
           Machine(
             name: "Depaletizadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Desempacadora",
@@ -54,164 +58,152 @@ class Utils {
           ),
           Machine(
             name:"Empacadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Lavadora de botellas",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Llenadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"OVIII",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Paletizadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
         ];
         break;
         case 1: return [
           Machine(
             name:"Paletizadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Depaletizadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Desempacadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Empacadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Lavadora de botellas",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Llenadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"OVIII",
-            image: "assets/imgs/LineaCocablack.png"
           ),
         ];
         break;
         case 2: return [
           Machine(
             name:"Depaletizadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Formadora de paquetes",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Llenadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Paletizadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Mezclador",
-            image: "assets/imgs/LineaCocablack.png"
           ),
         ];
         break;
         case 3: return [
           Machine(
             name:"Capsulador",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Etiquetador",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Formadora de paquetes",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Llenadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Mezclador",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Paletizadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Rinser",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Sopladora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
         ];
         break; 
         case 4: return [
           Machine(
             name:"Capsulador",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Posicionador",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Enjuagador",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Formadora de paquetes",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"LLenadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
         ];
         break;  
         case 5: return [
           Machine(
             name:"Mezclador",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Paletizadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Sopladora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Etiquetador",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Formadora de paquetes",
-            image: "assets/imgs/LineaCocablack.png"
           ),
           Machine(
             name:"Llenadora",
-            image: "assets/imgs/LineaCocablack.png"
           ),
         ];
+        break;
+        case 6: return {
+          Machine(
+            name: "Tanques de Jarabe",
+          ),
+          Machine(
+            name: "Filtro Candela",
+          ),
+          Machine(
+            name: "Llenadora",
+          ),
+          Machine(
+            name: "Contisolve",
+          ),
+          Machine(
+            name: "Holding",
+          ),
+          Machine(
+            name: "Filtro Rotativo",
+          ),
+          Machine(
+            name: "Estación de dilución",
+          ),
+        }
       }
   }
 }
