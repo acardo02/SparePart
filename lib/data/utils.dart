@@ -181,7 +181,7 @@ class Utils {
           ),
         ];
         break;
-        case 6: return {
+        case 6: return [
           Machine(
             name: "Tanques de Jarabe",
           ),
@@ -203,7 +203,7 @@ class Utils {
           Machine(
             name: "Estación de dilución",
           ),
-        }
+        ];
       }
   }
 }

@@ -94,7 +94,7 @@ class JarabeUtils{
                     slotLocation: "2000 Almacen General EST05-39",
                     image: "https://dsm01pap001files.storage.live.com/y4mkFtYfQG4v_pIEQuTPfGfd_y9UveNNArYGULuVOXzms7hv8FFQ1v4DIkCNbQZwkyZZGCyziydfAS6ZtfJxekG9JRP8ISf4iy5PD-sB7hTOL_q7pAH6beeozXV3T7-LPQNeKl_zzC_WyWqCFuiJ6q6sqlxS9dc5Opt7ZV-FtLBtGq5yQKP5XwniYj5aVeGnoyg?width=600&height=600&cropmode=none",
                 ),
-            ]
+            ];
             //Filtro candela 
             case 1: return [
                 SparePart(
@@ -249,7 +249,7 @@ class JarabeUtils{
                     slotLocation: "OUT OF STOCK",
                     image: "https://dsm01pap001files.storage.live.com/y4mcZsgqtvDd4mFdTMwUJpiYxAZvx-js5BAASW9PPZ9CfsA6UAt-vrpYKgCTPDfEX44EotltwcZG8PakLLn9BiWBCU-BAWRdPXBNEw9r31F39YnFh7ekH3oTvkvyw_SqikKEVq0o2AQuOPH_TnYCdV7IscLTT3wy0O8dNTx1e-5HZkbo8uaiZ99yy5i7gKTD7rj?width=297&height=660&cropmode=none",
                 ),            
-            ]
+            ];
             //Llenadora
             case 2: return [
                 SparePart(
@@ -262,77 +262,77 @@ class JarabeUtils{
                 ),
                 SparePart(
                     sap: "1424854",
-                    numPart: "-";
-                    description: "MANGUERA PLASTICA NEUMATICA 6MM";
-                    machineSerie: "950467";
-                    slotLocation: "3000 Refacc. Línea EST05-07";
+                    numPart: "-",
+                    description: "MANGUERA PLASTICA NEUMATICA 6MM",
+                    machineSerie: "950467",
+                    slotLocation: "3000 Refacc. Línea EST05-07",
                     image: "https://dsm01pap001files.storage.live.com/y4mW-hLvvt3Gjd5xBzHd7HB0KmxJPNrByv2AgXFVGrSDpCDnejk-NwsAAWjyLbzbrjrSJrKHImJ5tYJ05KJHrAZ6-f2AxxRAuvd55tdUH-LC6NMQ6TZyTH4V8ao4PffpvZGvSPRhIQ2xrSAf3anxZhD207dMmeQbs6NOU3TUyBHDozZ5lAp7uy3xjZQCg31iziw?width=660&height=660&cropmode=none",
                 ),
                 SparePart(
                     sap: "1425438",
-                    numPart: "-";
-                    description: "MANGUERA POLIURETANO 8MM. COLOR AZUL";
-                    machineSerie: "950467";
-                    slotLocation: "3000 Refacc. Línea EST05-09";
+                    numPart: "-",
+                    description: "MANGUERA POLIURETANO 8MM. COLOR AZUL",
+                    machineSerie: "950467",
+                    slotLocation: "3000 Refacc. Línea EST05-09",
                     image: "https://dsm01pap001files.storage.live.com/y4mh-QFgR4OdmwfU66sh6kMqyLOey3mO3X08LgtCwJrLEpg5AOuupaWVJ3ItrS9tt0pWnJwTZMFS8R_YiU2-mdnTkWzlAvdu-RCbXj8DeOh0-fh9MAbRw6QH-GRC9V-bUYVedTdum1S53Je-nK4cgONedpTX-tOsJkp9ynyusgZXj_qElvqJ5klWupFA5ndQOSx?width=660&height=660&cropmode=none",
                 ),
                 SparePart(
                     sap: "1425550",
-                    numPart: "-";
-                    description: "MANGUERA PLASTICA 10MM. MAT. POLIURETANO";
-                    machineSerie: "950467";
-                    slotLocation: "3000 Refacc. Línea EST05-14";
+                    numPart: "-",
+                    description: "MANGUERA PLASTICA 10MM. MAT. POLIURETANO",
+                    machineSerie: "950467",
+                    slotLocation: "3000 Refacc. Línea EST05-14",
                     image: "https://dsm01pap001files.storage.live.com/y4mT5-cL1okbxZgozfZezI71clQasWunFFeIWRDxOSAPEybRRsnA13gTbSCebOW-W37ucHr2YbtVHMqcHPaRUS7MLXzFRmXpl4QUZqXMwy8W7le-BF7jpKVu3tCqDVUuw_6DZ1qeXxgPNjNxvE_u0EDk0JMgYPzxeeYRFVGX7irxImi8wQLOA7-p3A7t2EEAKgI?width=500&height=266&cropmode=none",
                 ),
                 SparePart(
                     sap: "1425390",
-                    numPart: "-";
-                    description: "RACOR CODO 90° P/MANG.4MM CONEX.ROSCA M5";
-                    machineSerie: "950467";
-                    slotLocation: "2000 Almacen General EST03-05";
+                    numPart: "-",
+                    description: "RACOR CODO 90° P/MANG.4MM CONEX.ROSCA M5",
+                    machineSerie: "950467",
+                    slotLocation: "2000 Almacen General EST03-05",
                     image: "https://dsm01pap001files.storage.live.com/y4mG_TCVyoLkz64anP0OFyg0NE79eGz6qdoTa1fogaSWsi_M9_Fr1JIYEAHxw3pcZrtI5xTFbcyGABVGU5VfPoSDeYgIA1-5hWiOCYBaxwXu6dLjVaM2_u_z69ZkE_2IslUNG_AQKqrRnviUihi6Bm_1C4pVa72QjDunEimd3Rpz6t00ti3Du9KZLEIRSYAhEsB?width=225&height=225&cropmode=none",
                 ),
                 SparePart(
                     sap: "1424233",
-                    numPart: "-";
-                    description: "CONECTOR RACOR CODO QSL. MANGUERA 6MM";
-                    machineSerie: "950467";
-                    slotLocation: "3000 Refacc. Línea EST03-05";
+                    numPart: "-",
+                    description: "CONECTOR RACOR CODO QSL. MANGUERA 6MM",
+                    machineSerie: "950467",
+                    slotLocation: "3000 Refacc. Línea EST03-05",
                     image: "https://dsm01pap001files.storage.live.com/y4mmoA-h0DN5hOe_TQca9X9KNdFS5eGMGxAu3ECKEkMFKpFy0E3b2mRAkd4jhT3yWB2I5lK2AqgEy-yYIsWfdBrvBSi7qJourRA3teaz77h3y-oS7LOuCj8P57uBJ8k-Yli6p-HsLWtxbVYTWGjQ24X-hmHGhY0aQPKQWJiMo1fq9z6cUJm8DfNMpICE_OW8ZPf?width=200&height=171&cropmode=none",
                 ),
                 SparePart(
                     sap: "1425325",
-                    numPart: "-";
-                    description: "CONECTOR RACOR CODO. MANGUERA 8MM";
-                    machineSerie: "950467";
-                    slotLocation: "2000 Almacen General";
+                    numPart: "-",
+                    description: "CONECTOR RACOR CODO. MANGUERA 8MM",
+                    machineSerie: "950467",
+                    slotLocation: "2000 Almacen General",
                     image: "https://dsm01pap001files.storage.live.com/y4moMIWXJUhDk7vnE0Osmh0w0cAyyTVYzAffaXC2E6d_QYf7flOjGMG6BAyp51KQU7f_0E8cieSKN3u3UPPeVO0VeBcq4-nIydXUUuHBTosiqUqmazatdtFe9VJ2mmEtG51NRSduL2Ci7lrsOiqZG5WJsaSE2GC04hNq8LpxxFwP_rj3l8VLjQctCvlBjLDXJw3?width=660&height=660&cropmode=none",
                 ),
                 SparePart(
                     sap: "1424811",
-                    numPart: "-";
-                    description: "UNION RACORD RECTA. 8MM. TIPO RECTA";
-                    machineSerie: "950467";
-                    slotLocation: "2000 Almacen General EST03-01 3000 Refacc. Línea";
+                    numPart: "-",
+                    description: "UNION RACORD RECTA. 8MM. TIPO RECTA",
+                    machineSerie: "950467",
+                    slotLocation: "2000 Almacen General EST03-01 3000 Refacc. Línea",
                     image: "https://dsm01pap001files.storage.live.com/y4maXUc6G82Vbnb_MjrpcaUEL59q7pOjfmw0cTEhDSJeD8u8XbM0w7lmFmKMqMZD9kJaeRhlm_JB3eSUjGZ6uCz3YMnhApEzic3xG2bee9wR3K3u7MtMMpsuVngVCj2Vw6IPnXErxrRSc_-p4ukBuwJRO3HWYSFGH_U1rp6uGoog4sarqqDw7fYLmDtgQa_FXgd?width=250&height=250&cropmode=none",
                 ),
                 SparePart(
                     sap: "1424965",
-                    numPart: "-";
-                    description: "CONECTOR UNION RECTA P MANGUERA 10MM";
-                    machineSerie: "950467";
-                    slotLocation: "3000 Refacc. Línea EST03-01";
+                    numPart: "-",
+                    description: "CONECTOR UNION RECTA P MANGUERA 10MM",
+                    machineSerie: "950467",
+                    slotLocation: "3000 Refacc. Línea EST03-01",
                     image: "https://dsm01pap001files.storage.live.com/y4mgfH2cZrNMXNMcNiZlzIy7cmjJ5KKxTh3yqN_mgvjOZjQlW8UhELbil0MZccCTIZ0NBNjd2mFvvRrYnWoFPE80JC1LtBpd0OpjX1m9vlCZ2oMJSqoGn7TMW6gHPvm_LNvMAFpKwhirnEwDfNBa8CzO9rOTyC2jpOVSkpZ48qE9yuWFaIvDptay4v-R3bucadE?width=660&height=660&cropmode=none",
                 ),
                 SparePart(
                     sap: "1420839",
-                    numPart: "AC40-04-A";
-                    description: "UNIDAD MANTENIMIENTO 1/2''.AC40A-N04-ZE";
-                    machineSerie: "950467";
-                    slotLocation: "3000 Refacc. Línea EST09-50";
+                    numPart: "AC40-04-A",
+                    description: "UNIDAD MANTENIMIENTO 1/2''.AC40A-N04-ZE",
+                    machineSerie: "950467",
+                    slotLocation: "3000 Refacc. Línea EST09-50",
                     image: "https://dsm01pap001files.storage.live.com/y4mweWXadd1WiW2eBWhm0PjOHfJlNcICzfdd24jJo_S4EcNbi9MWRjkI8TYg5YU2jw7e0hJ0JRE5krthKxoHKs1u6MsuDacqdmrejJNE7sFZNIF7CgYmyIEZtbgg0wLCq-5Nb1jqNlnf8DlVuBUMjqBTQMd7hqUg2zFA7wya_fk7Mtdbvmh1JMF3OFCwsA9vI35?width=306&height=262&cropmode=none",
                ),
-            ]
+            ];
             //Contisolve
             case 3: return [
                 SparePart(
@@ -415,7 +415,7 @@ class JarabeUtils{
                     slotLocation: "OUT OF STOCK",
                     image: "https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?w=2000",
                 ),
-            ]
+            ];
             //Holding
             case 4: return [
                 SparePart(
@@ -458,7 +458,7 @@ class JarabeUtils{
                     slotLocation: "3000 Refacc. Línea EST29-30",
                     image: "https://dsm01pap001files.storage.live.com/y4m_eji1y667p1H3r0MqOdPGtQaIE0RSneRxJcB4tsaBR86e7eop82Y-kNejVOc7XxpnIN3cE7xXxtoZdgb20hcn6qXOFeBv6QRDsdE6MpM9zXxsMbqrQT1NIYePtZ0Dwb8XLJmG_UPSuJeexEblOqD6R8jcbNAJL7QnD-DhnVVwO17cVb3prylg7lzgMW6V6oL?width=322&height=308&cropmode=none",
                 ),
-            ]
+            ];
             //filtro rotativo
             case 5: return [
                 SparePart(
@@ -549,7 +549,7 @@ class JarabeUtils{
                     slotLocation: "OUT OF STOCK",
                     image: "https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?w=2000",
                 ),
-            ]
+            ];
             //Estacion de dilucion
             case 6: return [
                 SparePart(
@@ -616,7 +616,7 @@ class JarabeUtils{
                     slotLocation: "3000 Refacc. Línea EST09-50",
                     image: "https://dsm01pap001files.storage.live.com/y4mweWXadd1WiW2eBWhm0PjOHfJlNcICzfdd24jJo_S4EcNbi9MWRjkI8TYg5YU2jw7e0hJ0JRE5krthKxoHKs1u6MsuDacqdmrejJNE7sFZNIF7CgYmyIEZtbgg0wLCq-5Nb1jqNlnf8DlVuBUMjqBTQMd7hqUg2zFA7wya_fk7Mtdbvmh1JMF3OFCwsA9vI35?width=306&height=262&cropmode=none",
                 ),
-            ]
+            ];
         }
     }
 }
