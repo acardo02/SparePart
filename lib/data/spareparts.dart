@@ -5,6 +5,7 @@ import 'package:spare_part_app/data/line3.dart';
 import 'package:spare_part_app/data/line4.dart';
 import 'package:spare_part_app/data/line5.dart';
 import 'package:spare_part_app/data/line8.dart';
+import 'package:spare_part_app/data/jarabe.dart';
 
 import '../data/line1.dart';
 import '../model/spare_part_model.dart';
@@ -23,6 +24,8 @@ class UtilsSpareParts {
       case 4: return Line5Utils.getMockedLine5(numMachine);
       break;
       case 5: return Line8Utils.getMockedLine8(numMachine);
+      break;
+      case 6: return JarabeUtils.getMockedJarabe(numMachine);
       break;
     }
   }
