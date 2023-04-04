@@ -9,14 +9,14 @@ import 'dart:convert';
   Future getASparePart({ @required String query}) async {
  
     final response = await http.get(
-      Uri.parse('https://api-replog.onrender.com/api/getOne/$query'),
+      Uri.parse('https://replog-api.onrender.com/api/getOne/$query'),
     );
 
     final body = jsonDecode(response.body);
 
     if(body.isEmpty) {
       final response = await http.get(
-      Uri.parse('https://api-replog.onrender.com/api/getOne/numPart/$query'));
+      Uri.parse('https://replog-api.onrender.com/api/getOne/numPart/$query'));
 
       final body1 = jsonDecode(response.body);
 
@@ -31,7 +31,7 @@ import 'dart:convert';
   Future getImages({ @required String sap}) async {
 
     final response = await http.get(
-      Uri.parse('https://api-replog.onrender.com/api/getImages/$sap')
+      Uri.parse('https://replog-api.onrender.com/api/getImages/$sap')
     );
 
     final body = jsonDecode(response.body);

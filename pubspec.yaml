@@ -27,8 +27,6 @@ dev_dependencies:
 flutter:
   assets: 
   - assets/logosblanco.png
-  - assets/imgs/LineaCoca.png
-  - assets/imgs/LineaCocablack.png
   - assets/imgs/big_Bottle.svg
   - assets/imgs/can.svg
   - assets/imgs/Vidrio.svg

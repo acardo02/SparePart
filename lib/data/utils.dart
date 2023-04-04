@@ -201,7 +201,7 @@ class Utils {
             name: "Filtro Rotativo",
           ),
           Machine(
-            name: "Estación de dilución",
+            name: "Estación de dilucion",
           ),
         ];
       }
