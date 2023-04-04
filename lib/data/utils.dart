@@ -203,7 +203,7 @@ class Utils {
           Machine(
             name: "Estación de dilución",
           ),
-        ]
+        ];
       }
   }
 }
